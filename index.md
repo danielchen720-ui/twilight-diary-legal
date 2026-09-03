@@ -7,7 +7,6 @@ title: Privacy Policy — Twilight Diary
 
 _Last updated: 2026-09-03_
 
-
 Twilight Diary ("the app", "we", "us") is a private journaling app. This policy
 explains what the app stores, where it goes, and your choices.
 
@@ -36,6 +35,7 @@ When you use the app, the following is stored in our backend (hosted on
 | "Chatted with AI" status, timestamps | Journal display and feature logic |
 | Onboarding answers (your stated motivation, initial mood) | To adjust the tone of AI responses |
 | Daily AI-usage counts | To enforce free/subscription limits |
+| Feature-usage events (which screens and actions, never content) | To find where the app confuses people |
 | Subscription status | To unlock paid features (via RevenueCat) |
 
 **Account / identity.** On first launch the app creates an anonymous account so
@@ -62,8 +62,19 @@ feature** to these processors:
 - **RevenueCat** — processes subscription purchases and entitlement status
   (receives an app-specific user ID and purchase events, not your journal).
 
-The app currently uses **no analytics or crash-reporting SDK**. If that changes,
-this page will say so before it ships.
+**Usage analytics — ours, not a third party's.** The app records which features
+you used, so we can tell where the app is confusing and whether it is worth what
+it costs to run. These events are stored in our own Supabase, alongside your other
+data — they are **not** sent to any analytics company, and there is no third-party
+SDK in the app.
+
+An event records the action, never the writing. For example: "an entry was saved,
+its source was voice, it was 340 characters long, it had a photo" — not a single
+word of what you wrote, spoke, or were told. The app enforces this with a
+whitelist: anything that isn't a count, a duration, a flag, or a short predefined
+label is dropped before it is sent. Deleting your account deletes these events too.
+
+There is no crash-reporting SDK.
 
 These providers process the data on our behalf to deliver the feature you
 requested. We do not permit them to use your journal content to train models or
