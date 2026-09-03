@@ -39,11 +39,11 @@ When you use the app, the following is stored in our backend (hosted on
 | Subscription status | To unlock paid features (via RevenueCat) |
 
 **Account / identity.** On first launch the app creates an anonymous account so
-your data is isolated to your device. ⟨If Sign in with Apple is offered:⟩ You may
-link a Sign in with Apple identity so your journal is available if you reinstall
-or change devices; in that case Apple provides us a stable identifier and,
-optionally, a relay email address. We do not receive your real email unless you
-choose to share it.
+your data is isolated to your device. There is no sign-up: we never ask for your
+name, email address, or phone number, and this version offers no third-party
+login. Because the account lives on this device, uninstalling the app without
+exporting first means the data cannot be recovered — use Settings → Export &
+Import before you switch devices.
 
 **Your PIN.** The passcode that unlocks the app is stored **only on your device**
 and is never sent to us.
@@ -119,5 +119,4 @@ materially.
 
 ## Contact
 
-⟨your support email — App Store Connect requires one, and it must be an address
-you actually read⟩
+dchen720@gmail.com
