@@ -116,7 +116,10 @@ Payments are handled by **Apple**; we never see your card details.
   voice entry does send that audio for transcription — type instead if you would
   rather nothing leave the device but the text you save.
 - **Permissions:** microphone (voice entries) and photo library (attachments) are
-  requested only when you use those features and can be revoked in iOS Settings.
+  requested only when you use those features. Notifications are asked for only
+  after you have written your first entry, and are used for one thing: a weekly
+  recap on Sunday evening. All of these can be revoked in iOS Settings, and the
+  weekly recap can be turned off in Settings → 每周回顾.
 
 ## Children
 
