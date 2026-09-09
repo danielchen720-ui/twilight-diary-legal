@@ -1,18 +1,19 @@
 ---
 layout: default
-title: Privacy Policy — Twilight Diary
+title: Privacy Policy — Till Morning
 ---
 
-# Privacy Policy — Twilight Diary
+# Privacy Policy — Till Morning
 
-_Last updated: 2026-09-03_
+_Last updated: 2026-09-09_
 
-Twilight Diary ("the app", "we", "us") is a private journaling app. This policy
+
+Till Morning ("the app", "we", "us") is a private journaling app. This policy
 explains what the app stores, where it goes, and your choices.
 
 ## Summary
 
-- Your journal entries, emotion tags, and any voice/photo attachments are stored
+- Your journal entries and any voice/photo attachments are stored
   in your own isolated space in our backend. Other users cannot see them.
 - The app does **not** show ads and does **not** sell your data or use it for
   advertising or tracking.
@@ -28,12 +29,13 @@ When you use the app, the following is stored in our backend (hosted on
 | Data | Why |
 |---|---|
 | Journal entry text | To show you your journal and provide the app's features |
-| Emotion tags | Same |
 | Voice recordings and transcripts (if you record) | To let you play back the original audio and read the transcript inside the entry |
 | AI responses you asked for | They are written into the entry itself, so the entry reads as one piece |
 | Photos you attach | To show them in your journal |
+| What you park before sleep, and how you answered the next morning | To ask you about it in the morning and to show it back to you |
+| The memory archive — one-line facts the AI keeps about what you have written | So a reply can refer back to something you said before. You can read every item and delete any of them in Settings, or pause the archive entirely |
 | "Chatted with AI" status, timestamps | Journal display and feature logic |
-| Onboarding answers (your stated motivation, initial mood) | To adjust the tone of AI responses |
+| Onboarding answers (what you said you wanted the app for, and the theme you picked) | To adjust the tone of AI responses, and to remember your theme |
 | Daily AI-usage counts | To enforce free/subscription limits |
 | Feature-usage events (which screens and actions, never content) | To find where the app confuses people |
 | Subscription status | To unlock paid features (via RevenueCat) |
@@ -53,7 +55,7 @@ and is never sent to us.
 To provide specific features, the app sends **only the content needed for that
 feature** to these processors:
 
-- **Anthropic (Claude API)** — when you use "AI's take" or the weekly recap, the
+- **Anthropic (Claude API)** — when you use "Talk it through" or the weekly recap, the
   text of the relevant entry (and, for context, recent entries) is sent to
   Anthropic to generate the response. See Anthropic's privacy terms.
 - **Groq (Whisper API)** — when you record a voice entry and transcribe it, the
@@ -93,10 +95,10 @@ Payments are handled by **Apple**; we never see your card details.
 - Your data stays until you delete it.
 - **Delete one entry:** swipe it left in the journal list and confirm. Its text,
   its conversation, and any voice or photo files attached to it are removed.
-- **Delete a recording but keep the words:** press and hold a 🎤 passage inside an
+- **Delete a recording but keep the words:** press and hold a voice passage inside an
   entry and choose to keep only the text. The audio file is deleted permanently.
 - **Delete everything:** Settings → Delete account. This removes your entries,
-  conversations, emotion tags, onboarding answers, usage counts, subscription
+  conversations, onboarding answers, usage counts, subscription
   record, every voice and photo file, and the account itself. It cannot be undone.
   If a file cannot be removed at that moment, its path is queued and deleted by a
   cleanup job — it is never silently left behind.
@@ -111,15 +113,19 @@ Payments are handled by **Apple**; we never see your card details.
 
 - **Export:** Settings → Export & Import → export a full copy (optionally
   password-encrypted) at any time.
-- **Don't use AI features:** the journal works without ever pressing "AI's take"
+- **Don't use AI features:** the journal works without ever pressing "Talk it through"
   or the weekly recap; in that case no entry text leaves our backend. Recording a
   voice entry does send that audio for transcription — type instead if you would
   rather nothing leave the device but the text you save.
-- **Permissions:** microphone (voice entries) and photo library (attachments) are
-  requested only when you use those features. Notifications are asked for only
-  after you have written your first entry, and are used for one thing: a weekly
-  recap on Sunday evening. All of these can be revoked in iOS Settings, and the
-  weekly recap can be turned off in Settings → 每周回顾.
+- **Permissions:** the microphone (voice entries) is requested only when you use
+  that feature. Choosing a photo uses the system photo picker, which hands the app
+  only the image you pick — it never gets access to your photo library.
+  Notifications are only asked for at the moment you turn one on — the app never
+  asks on first launch, and never asks on its own. They are used for four things:
+  a reminder at the time you choose, a morning check-in about what you parked the
+  night before, the Sunday letter, and one notice before a free trial ends. None
+  of them ever contains a word of what you wrote. All of these can be revoked in
+  iOS Settings, and the weekly recap can be turned off in Settings → Weekly recap.
 
 ## Children
 
