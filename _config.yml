@@ -1,3 +1,5 @@
 theme: jekyll-theme-minimal
 title: Diary BFF
-description: Privacy Policy
+description: Privacy Policy and Support
+plugins:
+  - jekyll-redirect-from

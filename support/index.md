@@ -10,7 +10,7 @@ _Last updated: 2026-09-16_
 Diary BFF is a private journal that writes back. If something is broken, confusing,
 or missing, write to the person who makes it:
 
-**dchen720@gmail.com**
+**hello@diarybff.app**
 
 That address is the only support channel, and it is read by a person, not a bot.
 Please say which iPhone and which iOS version you are on — it usually saves a round trip.
@@ -54,7 +54,7 @@ that and we will talk it through.
 
 Only when you ask for a reply, and only after you have said yes on a screen that
 explains it. The full detail — who receives what, and what they are allowed to do
-with it — is in the [privacy policy](./).
+with it — is in the [privacy policy](../privacy/).
 
 ### Can I turn the companion off completely?
 
@@ -67,7 +67,7 @@ Yes, in Settings. The name is yours to pick; the app never decides it for you.
 
 ## Privacy
 
-The full privacy policy is [here](./).
+The full privacy policy is [here](../privacy/).
 
 ## Reporting a problem
 
