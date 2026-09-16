@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-09-15_
+_Last updated: 2026-09-16_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -91,9 +91,9 @@ have agreed:
 
 - **Anthropic (Claude API)** — when you ask for a reply or a Sunday letter, the
   relevant entry (and, for context, recent entries and the notes the app keeps
-  about you) is sent to Anthropic to generate the response. Per our agreement
-  with them, your content is **not used to train models** and is not retained
-  beyond what is needed to return the response.
+  about you) is sent to Anthropic to generate the response. Per Anthropic's
+  commercial terms, your content is **not used to train models**. Anthropic
+  deletes it from their systems within 30 days.
 - **Groq (Whisper API)** — speech-to-text runs **on your phone** by default. Only
   if you turn on "More accurate transcription" in Settings does the audio leave
   the phone and go to Groq. Groq is configured for zero data retention.
