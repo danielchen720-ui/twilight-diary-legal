@@ -1,4 +1,8 @@
-theme: jekyll-theme-minimal
+# No `theme:` line on purpose --- see the comment at the top of
+# _layouts/default.html. Every stock theme prints the repository owner's account
+# name in its sidebar or footer, and this is the page an app store links to as a
+# privacy policy. The page owns its own shell so there is nowhere for a name to
+# come back.
 # Written out in full on purpose. jekyll-redirect-from builds the root page's
 # jump target from this value, and when it is missing the host fills it in from
 # its own settings --- which, until the "Enforce HTTPS" box is ticked, is the
@@ -14,3 +18,9 @@ title: Diary BFF
 description: Privacy Policy and Support
 plugins:
   - jekyll-redirect-from
+
+# Keep the repository's own notes out of what gets served. README.md has no front
+# matter, so Jekyll would copy it through verbatim and serve it as a file --- and
+# it lists the old addresses, account name and all.
+exclude:
+  - README.md
