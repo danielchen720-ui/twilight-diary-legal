@@ -1,4 +1,15 @@
 theme: jekyll-theme-minimal
+# Written out in full on purpose. jekyll-redirect-from builds the root page's
+# jump target from this value, and when it is missing the host fills it in from
+# its own settings --- which, until the "Enforce HTTPS" box is ticked, is the
+# insecure scheme. The symptom was that the front page bounced visitors DOWN
+# from a secure page to an insecure one, silently, while every page it linked to
+# was already served securely.
+#
+# The box still wants ticking (it is what makes the insecure entry point bounce
+# up), but with this line the bounce is correct either way instead of depending
+# on a setting nobody can see from the source.
+url: https://diarybff.app
 title: Diary BFF
 description: Privacy Policy and Support
 plugins:
