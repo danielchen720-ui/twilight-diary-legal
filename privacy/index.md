@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-09-16_
+_Last updated: 2026-09-17_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -153,8 +153,8 @@ Both can be revoked in iOS Settings.
 ## Keeping and deleting
 
 - Your data stays until you delete it.
-- **One entry:** swipe it left in the journal and confirm. Its text, its replies,
-  and any voice or photo files attached to it are removed.
+- **One night:** press and hold it in the journal and confirm. Its text, its
+  replies, and any voice or photo files attached to it are removed.
 - **A recording, keeping the words:** press and hold a 🎤 passage inside an entry
   and choose to keep only the text. The audio file is deleted.
 - **Everything:** Settings → Delete account. This removes your entries, replies,
@@ -180,8 +180,10 @@ Both can be revoked in iOS Settings.
 
 ## Children
 
-The app is not directed to children under 13 (or the equivalent minimum age
-where you live) and is rated 17+.
+The app is not directed to children, and is not intended for anyone under 18.
+Its App Store age rating is set accordingly: versions of iOS that have the newer
+rating bands show it as **18+**, and older versions, which do not have that band,
+show it as **17+**.
 
 ## Changes
 
