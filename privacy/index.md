@@ -36,8 +36,10 @@ can be recognised on your next phone. The app itself never reads, stores, or
 shows either one — but they are held by the authentication service, so they are
 disclosed here and on the App Store privacy card.
 
-**Your passcode** (the 4 digits that unlock the app) is stored **only on your
-device**, as a salted hash. It is never sent to us.
+**Your passcode** (the 4 digits that unlock the app) is checked on your device.
+When you set or change it, it is sent once over an encrypted connection and we
+keep only a one-way hash of it (bcrypt), so you can prove it is you on a new
+phone. We never store the passcode itself.
 
 > The passcode protects the app on a phone that is already unlocked. It is not
 > device encryption, and it does not stop us — see "What we can see" below.
