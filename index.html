@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Diary BFF — A diary that writes back</title>
+<meta name="description" content="A private diary with a friend inside. You name them, you write, they write back a line or two — and remember you next time.">
+<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta property="og:title" content="Diary BFF — A diary that writes back">
+<meta property="og:description" content="A private diary with a friend inside. You name them. They write back.">
+<meta property="og:url" content="https://diarybff.app/">
+<style>
+  /* ---- tokens: one accent, two radii, 8pt grid, two durations ---- */
+  :root{
+    --bg:#F2F2F7; --surface:#FFFFFF; --label:#000000; --label2:#3C3C4399; --label3:#3C3C434D;
+    --sep:#3C3C4329; --accent:#0071E3; --fill:#E5E5EA;
+    --r1:12px; --r2:20px;
+    --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s6:48px; --s8:64px; --s12:96px;
+    --t1:200ms; --t2:300ms;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#000000; --surface:#1C1C1E; --label:#F2F2F7; --label2:#EBEBF599; --label3:#EBEBF54D;
+      --sep:#54545899; --accent:#0A84FF; --fill:#2C2C2E; }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--label);font-family:var(--font);font-size:17px;line-height:1.5;
+    -webkit-font-smoothing:antialiased;padding:0 var(--s2)}
+  a{color:var(--accent);text-decoration:none;transition:opacity var(--t1)}
+  a:hover{opacity:.7}
+  .wrap{max-width:680px;margin:0 auto}
+  header{display:flex;align-items:center;justify-content:space-between;padding:var(--s3) 0}
+  .mark{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.01em;color:var(--label)}
+  nav a{font-size:15px;margin-left:var(--s3)}
+  .hero{padding:var(--s12) 0 var(--s8)}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,64px);line-height:1.05;letter-spacing:-.025em}
+  .lede{margin-top:var(--s3);font-size:21px;line-height:1.45;color:var(--label2);max-width:34ch}
+  .soon{display:inline-block;margin-top:var(--s4);padding:12px var(--s3);border-radius:999px;
+    background:var(--fill);color:var(--label);font-size:15px;font-weight:600}
+  /* a quiet demo of the product, not a screenshot */
+  .page{margin-top:var(--s8);background:var(--surface);border-radius:var(--r2);padding:var(--s4) var(--s3)}
+  .page .date{font-size:13px;color:var(--label2)}
+  .page p.entry{margin-top:var(--s1);font-size:17px}
+  .reply{margin-top:var(--s3);background:var(--bg);border-radius:var(--r1);padding:var(--s2) var(--s2)}
+  .who{display:flex;align-items:center;gap:var(--s1);font-size:15px;font-weight:600}
+  .av{width:24px;height:24px;border-radius:50%;background:var(--fill);color:var(--accent);
+    display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:600}
+  .reply p{margin-top:var(--s1);color:var(--label2)}
+  section{padding:var(--s8) 0;border-top:1px solid var(--sep)}
+  h2{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.2;letter-spacing:-.015em}
+  .grid{margin-top:var(--s4);display:grid;gap:var(--s4)}
+  @media (min-width:640px){ .grid.three{grid-template-columns:repeat(3,1fr)} }
+  h3{font-size:17px;font-weight:600}
+  .grid p{margin-top:var(--s1);color:var(--label2);font-size:15px}
+  ul.plain{list-style:none;margin-top:var(--s3)}
+  ul.plain li{padding:var(--s2) 0;border-bottom:1px solid var(--sep)}
+  ul.plain li:last-child{border-bottom:0}
+  ul.plain li span{display:block;color:var(--label2);font-size:15px;margin-top:4px}
+  .free p{margin-top:var(--s2);color:var(--label2);max-width:44ch}
+  footer{padding:var(--s6) 0 var(--s8);border-top:1px solid var(--sep);font-size:13px;color:var(--label2)}
+  footer .links a{margin-right:var(--s3)}
+  footer p{margin-top:var(--s2);max-width:52ch}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="mark">Diary BFF</span>
+    <nav><a href="/privacy/">Privacy</a><a href="/support/">Support</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>A diary that<br>writes back.</h1>
+      <p class="lede">Write what's on your mind. A friend you name reads it, writes a line or two back, and remembers you next time.</p>
+      <span class="soon">Coming soon to iPhone</span>
+
+      <div class="page" aria-label="Example entry">
+        <div class="date">Thursday, September 24</div>
+        <p class="entry">Couldn't stop replaying the meeting. I said the numbers wrong in front of everyone and nobody corrected me, which somehow feels worse.</p>
+        <div class="reply">
+          <div class="who"><span class="av" aria-hidden="true">M</span>Mo</div>
+          <p>You noticed the mistake before anyone else did. That counts for something.</p>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <h2>A friend inside your journal.</h2>
+      <div class="grid three">
+        <div><h3>You name them.</h3><p>Pick a name and what they're like. Blunt but kind, quiet company, or someone who pushes back.</p></div>
+        <div><h3>They write back.</h3><p>One or two lines under what you wrote. Never a lecture, never a chat that won't end.</p></div>
+        <div><h3>They remember.</h3><p>Next week they'll know what last week was about. Everything they remember sits on one page you can read and delete.</p></div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Only you can open it.</h2>
+      <ul class="plain">
+        <li>Its own PIN<span>Separate from your phone's passcode, so a friend holding your unlocked phone still can't read it.</span></li>
+        <li>No account, no email, no feed<span>Nothing to post, nothing to share, nobody to follow.</span></li>
+        <li>No mood scores, no charts<span>A friend doesn't hand you a graph of yourself.</span></li>
+        <li>Replies are optional<span>Turn them off and no AI reads your entries.</span></li>
+        <li>Take it with you<span>Export everything, any time, on the free plan too.</span></li>
+      </ul>
+    </section>
+
+    <section class="free">
+      <h2>Writing is free. Forever.</h2>
+      <p>Writing, voice, and export never cost anything. The full version adds more replies and a letter every Sunday about the week you actually had.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="links"><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></div>
+    <p>Diary BFF is a journal, not a substitute for professional care. If you're in crisis, please contact your local emergency number.</p>
+    <p>© 2026 Diary BFF</p>
+  </footer>
+</div>
+</body>
+</html>
