@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Diary BFF — A diary that writes back</title>
-<meta name="description" content="A private diary with a friend inside. You name them, you write, they write back a line or two — and remember you next time.">
+<meta name="description" content="A private diary with a friend inside. You write, and he writes back a few lines — and remembers you next time.">
 <meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
 <meta property="og:title" content="Diary BFF — A diary that writes back">
-<meta property="og:description" content="A private diary with a friend inside. You name them. They write back.">
+<meta property="og:description" content="A private diary with a friend inside. He writes back.">
 <meta property="og:url" content="https://diarybff.app/">
 <style>
   /* ---- tokens: one accent, two radii, 8pt grid, two durations ---- */
@@ -60,6 +60,8 @@
   ul.plain li:last-child{border-bottom:0}
   ul.plain li span{display:block;color:var(--label2);font-size:15px;margin-top:4px}
   .free p{margin-top:var(--s2);color:var(--label2);max-width:44ch}
+  .privacy{margin-top:var(--s2);color:var(--label2);max-width:44ch}
+  .social{margin-top:var(--s3);display:flex;flex-wrap:wrap;gap:var(--s2) var(--s3);font-size:17px}
   footer{padding:var(--s6) 0 var(--s8);border-top:1px solid var(--sep);font-size:13px;color:var(--label2)}
   footer .links a{margin-right:var(--s3)}
   footer p{margin-top:var(--s2);max-width:52ch}
@@ -76,48 +78,38 @@
   <main>
     <div class="hero">
       <h1>A diary that<br>writes back.</h1>
-      <p class="lede">Write what's on your mind. A friend you name reads it, writes a line or two back, and remembers you next time.</p>
-      <span class="soon">Coming soon to iPhone</span>
-
-      <div class="page" aria-label="Example entry">
-        <div class="date">Thursday, September 24</div>
-        <p class="entry">Couldn't stop replaying the meeting. I said the numbers wrong in front of everyone and nobody corrected me, which somehow feels worse.</p>
-        <div class="reply">
-          <div class="who"><span class="av" aria-hidden="true">M</span>Mo</div>
-          <p>You noticed the mistake before anyone else did. That counts for something.</p>
-        </div>
-      </div>
+      <p class="lede">Write what's on your mind tonight. When you ask, a friend in your diary writes a few lines back, right under your words.</p>
+      <span class="soon" aria-label="App Store link coming soon">App Store · coming soon</span>
     </div>
 
     <section>
-      <h2>A friend inside your journal.</h2>
       <div class="grid three">
-        <div><h3>You name them.</h3><p>Pick a name and what they're like. Blunt but kind, quiet company, or someone who pushes back.</p></div>
-        <div><h3>They write back.</h3><p>One or two lines under what you wrote. Never a lecture, never a chat that won't end.</p></div>
-        <div><h3>They remember.</h3><p>Next week they'll know what last week was about. Everything they remember sits on one page you can read and delete.</p></div>
+        <div><h3>One page.</h3><p>Your words and his replies run together on the same page, like a diary someone read and answered.</p></div>
+        <div><h3>He speaks when asked.</h3><p>A few lines when you tap Ask. No lectures, no lists of advice.</p></div>
+        <div><h3>He remembers.</h3><p>Weeks later he can bring up what you told him, with the date.</p></div>
       </div>
     </section>
 
     <section>
-      <h2>Only you can open it.</h2>
-      <ul class="plain">
-        <li>Its own PIN<span>Separate from your phone's passcode, so a friend holding your unlocked phone still can't read it.</span></li>
-        <li>No account, no email, no feed<span>Nothing to post, nothing to share, nobody to follow.</span></li>
-        <li>No mood scores, no charts<span>A friend doesn't hand you a graph of yourself.</span></li>
-        <li>Replies are optional<span>Turn them off and no AI reads your entries.</span></li>
-        <li>Take it with you<span>Export everything, any time, on the free plan too.</span></li>
-      </ul>
+      <h2>Not used to train AI.</h2>
+      <p class="privacy">You can delete everything from Settings, any time.</p>
     </section>
 
-    <section class="free">
-      <h2>Writing is free. Forever.</h2>
-      <p>Writing, voice, and export never cost anything. The full version adds more replies and a letter every Sunday about the week you actually had.</p>
+    <section>
+      <h2>Follow along.</h2>
+      <div class="social">
+        <a href="https://www.tiktok.com/@diarybffapp">TikTok</a>
+        <a href="https://www.instagram.com/diarybff.app/">Instagram</a>
+        <a href="https://www.youtube.com/@diarybff">YouTube</a>
+        <a href="https://x.com/diarybffapp">X</a>
+        <a href="https://www.pinterest.com/diarybffapp/">Pinterest</a>
+      </div>
     </section>
   </main>
 
   <footer>
     <div class="links"><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></div>
-    <p>Diary BFF is a journal, not a substitute for professional care. If you're in crisis, please contact your local emergency number.</p>
+    <p>Diary BFF is a journal, not a substitute for professional care. If you're in crisis, contact your local emergency number.</p>
     <p>© 2026 Diary BFF</p>
   </footer>
 </div>
