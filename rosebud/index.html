@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Coming from Rosebud? — Diary BFF</title>
+<meta name="description" content="Rosebud's free plan ends September 30, 2026. Export your journal from Rosebud first, then see what Diary BFF is.">
+<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<!--
+  Draft (Q128). Every sentence about Diary BFF on this page maps to code on
+  release/1.1; every sentence about Rosebud is a verbatim quote from its own
+  help page, linked. The source table lives outside this repo (出处表.md).
+  Rules for editing this page:
+  - Never state Rosebud's prices, never characterise Rosebud beyond its own words.
+  - Diary BFF has no Rosebud importer. Do not write "import".
+  - Do not promise a number of free replies: the free-tier reply count is
+    remote-tunable (app_config.free_replies_per_day) and 1.1's paid structure
+    moves it to 0 after the trial.
+  Styles are copied from /index.html on purpose (that page has no layout either).
+-->
+<style>
+  :root{
+    --bg:#F2F2F7; --surface:#FFFFFF; --label:#000000; --label2:#3C3C4399; --label3:#3C3C434D;
+    --sep:#3C3C4329; --accent:#0071E3; --fill:#E5E5EA;
+    --r1:12px; --r2:20px;
+    --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s6:48px; --s8:64px; --s12:96px;
+    --t1:200ms;
+    --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
+    --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#000000; --surface:#1C1C1E; --label:#F2F2F7; --label2:#EBEBF599; --label3:#EBEBF54D;
+      --sep:#54545899; --accent:#0A84FF; --fill:#2C2C2E; }
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--label);font-family:var(--font);font-size:17px;line-height:1.5;
+    -webkit-font-smoothing:antialiased;padding:0 var(--s2)}
+  a{color:var(--accent);text-decoration:none;transition:opacity var(--t1)}
+  a:hover{opacity:.7}
+  .wrap{max-width:680px;margin:0 auto}
+  header{display:flex;align-items:center;justify-content:space-between;padding:var(--s3) 0}
+  .mark{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.01em;color:var(--label)}
+  nav a{font-size:15px;margin-left:var(--s3)}
+  .hero{padding:var(--s8) 0 var(--s6)}
+  h1{font-family:var(--display);font-weight:700;font-size:clamp(36px,7vw,56px);line-height:1.08;letter-spacing:-.025em}
+  .lede{margin-top:var(--s3);font-size:21px;line-height:1.45;color:var(--label2);max-width:36ch}
+  section{padding:var(--s6) 0;border-top:1px solid var(--sep)}
+  h2{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.2;letter-spacing:-.015em}
+  section > p{margin-top:var(--s2);color:var(--label2);max-width:46ch}
+  .quotes{margin-top:var(--s3);background:var(--surface);border-radius:var(--r2);padding:var(--s3)}
+  blockquote{padding:var(--s2) 0;border-bottom:1px solid var(--sep);font-size:17px}
+  blockquote:first-child{padding-top:0}
+  blockquote:last-of-type{border-bottom:0;padding-bottom:0}
+  .cite{margin-top:var(--s2);font-size:13px;color:var(--label2)}
+  ol.steps{list-style:none;margin-top:var(--s3);counter-reset:step}
+  ol.steps li{counter-increment:step;display:grid;grid-template-columns:32px 1fr;gap:var(--s1);
+    padding:var(--s2) 0;border-bottom:1px solid var(--sep)}
+  ol.steps li:last-child{border-bottom:0}
+  ol.steps li::before{content:counter(step);width:24px;height:24px;border-radius:50%;background:var(--fill);
+    color:var(--accent);font-size:13px;font-weight:600;display:inline-flex;align-items:center;justify-content:center;margin-top:1px}
+  ol.steps span{display:block;color:var(--label2);font-size:15px;margin-top:4px}
+  ul.plain{list-style:none;margin-top:var(--s3)}
+  ul.plain li{padding:var(--s2) 0;border-bottom:1px solid var(--sep)}
+  ul.plain li:last-child{border-bottom:0}
+  ul.plain li span{display:block;color:var(--label2);font-size:15px;margin-top:4px}
+  .back{display:inline-block;margin-top:var(--s3);font-size:15px}
+  footer{padding:var(--s6) 0 var(--s8);border-top:1px solid var(--sep);font-size:13px;color:var(--label2)}
+  footer .links a{margin-right:var(--s3)}
+  footer p{margin-top:var(--s2);max-width:52ch}
+  @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="mark" href="/">Diary BFF</a>
+    <nav><a href="/privacy/">Privacy</a><a href="/support/">Support</a></nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Coming from Rosebud?</h1>
+      <p class="lede">Rosebud's free plan ends on September 30, 2026. Before you go anywhere, keep what you wrote.</p>
+    </div>
+
+    <section>
+      <h2>What Rosebud says</h2>
+      <div class="quotes">
+        <blockquote>“Effective September 30, 2026, the Rosebud free plan will be retired.”</blockquote>
+        <blockquote>“…we are unfortunately unable to sustainably offer a free tier moving forward.”</blockquote>
+        <blockquote>“Nothing you've written is going away, and you can export everything anytime.”</blockquote>
+        <p class="cite">Quoted from Rosebud's help center: <a href="https://help.rosebud.app/account/changes-to-the-free-plan" rel="noopener">Changes to the free plan</a>. Read the full page there.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Keep your journal first</h2>
+      <ol class="steps">
+        <li><div>Export from Rosebud<span>Rosebud says you can export everything anytime. Do that before anything else.</span></div></li>
+        <li><div>Keep that file somewhere you trust<span>Diary BFF can't read a Rosebud export. Your old entries stay in that file, yours to keep.</span></div></li>
+        <li><div>Start a fresh page<span>If you want a new place to write, here's what this one is.</span></div></li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>A diary with a friend inside</h2>
+      <ul class="plain">
+        <li>You give them a name<span>They're the part of the diary that writes back.</span></li>
+        <li>They write back when you ask<span>One or two sentences under what you wrote. Nothing goes to an AI until you ask for a reply.</span></li>
+        <li>They remember<span>When they bring back something you wrote before, the date comes with it. Anything you delete, they never mention again.</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Only you can open it</h2>
+      <ul class="plain">
+        <li>Its own PIN<span>Separate from your phone's lock.</span></li>
+        <li>Take it with you<span>Export every entry, with timestamps and replies, into one file you keep. Any time, on the free plan too.</span></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Writing stays free, forever</h2>
+      <p>Writing and export never cost anything.</p>
+      <a class="back" href="/">See how Diary BFF works</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="links"><a href="/privacy/">Privacy Policy</a><a href="/terms/">Terms</a><a href="/support/">Support</a></div>
+    <p>Diary BFF isn't affiliated with Rosebud. Quotes above are Rosebud's own words, linked to their source.</p>
+    <p>Diary BFF is a journal, not a substitute for professional care. If you're in crisis, contact your local emergency number.</p>
+    <p>© 2026 Diary BFF</p>
+  </footer>
+</div>
+</body>
+</html>
