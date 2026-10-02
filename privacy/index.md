@@ -44,7 +44,8 @@ disclosed here and on the App Store privacy card.
 **Your PIN** (the 4 digits that unlock the app) is checked on your phone. On the
 phone, the app keeps only a one-way hash of it in the iOS Keychain
 (PBKDF2-HMAC-SHA256, 210,000 iterations, with a random salt of its own). When you
-set or change your PIN, it is also sent once over an encrypted connection so our
+set or change your PIN (or, if that did not reach our server, the next time you
+unlock the app), it is also sent once over an encrypted connection so our
 server can keep a separate one-way hash of it (bcrypt). That copy is used for one
 thing only: proving it is you when you move to a new phone. The PIN itself is
 never stored, on the phone or on our server.
@@ -66,7 +67,8 @@ In our backend (**Supabase**, US East `us-east-1`):
 | Sunday letters written for you | So you can read them again |
 | Messages on the chat page, and the replies to them | So the conversation is there when you come back |
 | Whether an entry has been talked about, and timestamps | Journal display and feature logic |
-| Your onboarding answers (why you came, the name and character you gave your friend) | To adjust the tone of replies |
+| Your onboarding answers (why you came, the name and character you gave your friend, and the face you picked) | To adjust the tone of replies |
+| The city you add in Settings, if you add one, and — on each entry written while a city is set — that city | To show the weather on your diary, to show on each entry where you wrote it, and so your friend knows where you are. The city on an entry is stored on our server with that entry: deleting the entry deletes it. You can remove it from one entry, or from all past entries when you remove your city. We never store the weather with an entry |
 | A one-way hash of your PIN (never the PIN itself), and a count of recent PIN checks on a new phone | So you can prove it is you on a new phone, and so the PIN cannot be guessed quickly |
 | AI-usage counts | To apply free and subscription limits |
 | Feature-usage events — which screens and actions, never content | To find where the app confuses people |
@@ -125,19 +127,28 @@ Two specific things worth knowing:
 The app sends **only the content needed for that feature**, and only after you
 have agreed:
 
-- **Anthropic (Claude API)** — when you ask for a reply or a Sunday letter, or
-  send a message on the chat page, the relevant entry or recent chat messages (and, for context, recent entries and the notes the app keeps
-  about you) is sent to Anthropic to generate the response. The notes themselves
+- **Anthropic (Claude API)** — when you ask for a reply or send a message on the
+  chat page, and when your Sunday letter is prepared (once you have written that
+  week, the app starts writing it in the background so it is ready when you open
+  it), the relevant entry or recent chat messages (and, for context, recent entries,
+  the notes the app keeps about you, and — if you added one — your city and its
+  current weather) is sent to Anthropic to generate the response. The notes themselves
   are also written by an Anthropic model, from your entries. Under Anthropic's
   current commercial terms, your content is **not used to train models**, and
   Anthropic keeps it only for a limited time: by default it is deleted from their
   systems within 30 days. Content that their safety systems flag under their
   usage policy may be kept longer.
 - **Supabase** — our database, file storage, and serverless functions.
+- **Cloudflare (R2)** — keeps the encrypted backup of photos and voice notes
+  described under "Keeping and deleting". Each backup is encrypted before it is
+  stored there, with a key Cloudflare does not have, and none is kept longer than 7 days.
+- **GitHub (Actions)** — runs that nightly backup job. Photos and voice notes pass
+  through it for a few minutes before they are encrypted, and are not kept there.
 - **RevenueCat** — subscription purchases and entitlement status. It receives an
   app-specific user ID and purchase events, not your journal.
 - **Apple** — payments, and Sign in with Apple if you choose it. We never see
   your card details.
+- **Apple (WeatherKit)** — if you add a city, our server sends Apple the map coordinates of that city (the same for everyone in it, never your phone's location, and never who you are) to get its weather.
 - **Groq** — only for recordings made with an earlier version of the app with
   "More accurate transcription" turned on (see "Voice recordings"). Groq is
   configured for zero data retention. This version sends nothing to Groq.
@@ -165,7 +176,8 @@ which you reach from his page.
   your account, the same way your entries are.
 - To write a reply, your recent messages on that page, plus the short notes the
   app keeps about you, are sent to **Anthropic** — the same provider, under the
-  same terms, as replies in the journal. The same "ask first" rule applies:
+  same terms, as replies in the journal. If you reply to a Sunday letter, the
+  part of that letter you can read is sent too. The same "ask first" rule applies:
   nothing goes to Anthropic until you have agreed.
 - If a message looks like you may hurt yourself or are in crisis, it is **not
   sent** to the AI and not stored: the app shows a screen with a crisis line for
@@ -184,7 +196,9 @@ which you reach from his page.
 Writing is free, always — typing, voice, photos, export, and the PIN lock
 never cost anything.
 
-What a subscription buys is **more replies** and the full Sunday letter. After
+What a subscription buys is **more replies** and the full Sunday letter, within a
+monthly fair-use limit: after very heavy use in a calendar month, replies drop
+back to a few a day and fewer letters are written until the 1st. After
 the trial ends, the free tier still gets a few replies each day, and the Sunday
 letter arrives with its first part readable and the rest held back. These are
 product settings we may adjust; the app shows you where you stand rather than
@@ -219,7 +233,7 @@ All of these can be revoked in iOS Settings.
 - No selling or renting of personal data.
 - No cross-app or cross-site tracking.
 - No third-party analytics SDK, no crash-reporting SDK.
-- No location. The app does not ask for or read where you are.
+- No location tracking. The app never asks for or reads your phone's location. If you add a city in Settings, it keeps that city name and nothing more precise.
 
 ## Keeping and deleting
 
@@ -232,11 +246,13 @@ All of these can be revoked in iOS Settings.
   text, its replies, and any voice or photo files attached to it — on the phone
   and in our storage — are removed.
 - **Everything:** Settings → Delete account. This removes your entries, replies,
-  the notes the app kept about you, your onboarding answers, usage counts, the
-  subscription record, your chat, every voice and photo file, any recordings
+  the notes the app kept about you, your onboarding answers, your city, usage counts, error
+  reports, the subscription record, your chat, every voice and photo file, any recordings
   kept on this phone, and the account itself. It cannot be undone. If a file cannot be removed
   at that moment its path is queued and removed by a cleanup job, rather than
   being left behind quietly.
+- Photos and voice notes are also backed up, encrypted, with a cloud storage provider for at most 7 days.
+- If the app hits an error, it sends us the kind of error, a short description with anything you wrote removed, the screen it happened on, and the app version. These reports are deleted after 30 days.
 - **Chat:** delete one message, or use "Clear chat". Both are permanent.
 - Deleting your account does **not** cancel an App Store subscription. The app
   says so before you confirm and links you to iOS Settings.
