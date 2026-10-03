@@ -193,7 +193,7 @@ which you reach from his page.
 
 ## Free and paid
 
-Writing is free, always — typing, voice, photos, export, and the PIN lock
+Writing is free — typing, voice, photos, export, and the PIN lock
 never cost anything.
 
 What a subscription buys is **more replies** and the full Sunday letter, within a
