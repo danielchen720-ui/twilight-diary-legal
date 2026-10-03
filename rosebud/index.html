@@ -71,6 +71,10 @@
   footer .links a{margin-right:var(--s3)}
   footer p{margin-top:var(--s2);max-width:52ch}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+  /* App Store badge (Apple Marketing Guidelines: unmodified artwork, ≥40px tall on screen, clear space ≥ ¼ of its height, one badge per page) */
+  .badge{display:inline-block;margin-top:var(--s3);padding:var(--s1) 0;line-height:0}
+  .badge img{height:40px;width:auto}
+  .follow{margin-top:var(--s4);color:var(--label2);font-size:15px}
 </style>
 </head>
 <body>
@@ -128,7 +132,14 @@
       <a class="back" href="/">See how Diary BFF works</a>
     </section>
     <section>
-      <h2>Follow along for the launch</h2>
+      <h2>Get Diary BFF.</h2>
+      <a class="badge" href="https://apps.apple.com/app/diary-bff/id6811528172" aria-label="Download Diary BFF on the App Store">
+        <picture>
+          <source srcset="/assets/download-on-the-app-store-white.svg" media="(prefers-color-scheme: dark)">
+          <img src="/assets/download-on-the-app-store-black.svg" alt="Download on the App Store" width="120" height="40">
+        </picture>
+      </a>
+      <p class="follow">Follow along:</p>
       <div class="social">
         <a href="https://www.tiktok.com/@diarybffapp">TikTok</a>
         <a href="https://www.instagram.com/diarybff.app/">Instagram</a>
