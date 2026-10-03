@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-09-25_
+_Last updated: 2026-10-02_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -198,9 +198,9 @@ never cost anything.
 
 What a subscription buys is **more replies** and the full Sunday letter, within a
 monthly fair-use limit: after very heavy use in a calendar month, replies drop
-back to a few a day and fewer letters are written until the 1st. After
-the trial ends, the free tier still gets a few replies each day, and the Sunday
-letter arrives with its first part readable and the rest held back. These are
+back to a few a day and fewer letters are written until the 1st. After the trial ends, accounts created before the 1.3 update keep a few replies
+each day; newer free accounts do not get replies. Free accounts get a short
+weekly letter, and what your diary friend remembers is updated once a week. These are
 product settings we may adjust; the app shows you where you stand rather than
 relying on this page to be current.
 
