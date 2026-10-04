@@ -44,14 +44,15 @@ of it, and it also means:
 - **What you write is yours.** We don't claim ownership of it. You give us
   permission to store it, process it and send it to the services listed in
   our Privacy Policy, only so the app can work for you.
-- We back up your diary every night.
+- We back up your diary and your photos every night.
   **We don't promise that nothing will ever be lost, or that we can restore
   something that was.** Servers fail, and so do backups.
 - **You can export your diary, free, at any time** — Settings → Export & Import.
   You can lock the file with a password. If your diary matters to you, keep an
   export of your own.
 - **Deleting your account deletes your data.** Settings → Delete account. It
-  happens right away and cannot be undone.
+  happens right away and cannot be undone. Encrypted copies of photos in our
+  backup are gone within 7 days.
 - Deleting your account does not cancel an App Store subscription. Cancel that
   in iOS Settings.
 - How we handle your data is in our Privacy Policy:
