@@ -282,6 +282,8 @@ show it as **17+**.
 We will update this page and the "last updated" date if this policy changes
 materially.
 
+The rules for using the app are in our [Terms of Use](/terms/).
+
 ## Contact
 
 hello@diarybff.app
