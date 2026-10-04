@@ -139,11 +139,11 @@ have agreed:
   systems within 30 days. Content that their safety systems flag under their
   usage policy may be kept longer.
 - **Supabase** — our database, file storage, and serverless functions.
-- **Cloudflare (R2)** — keeps the encrypted backup of photos and voice notes
-  described under "Keeping and deleting". Each backup is encrypted before it is
+- **Cloudflare (R2)** — where we will keep an encrypted backup of photos, once that
+  backup is switched on. Each backup is encrypted before it is
   stored there, with a key Cloudflare does not have, and none is kept longer than 7 days.
-- **GitHub (Actions)** — runs that nightly backup job. Photos and voice notes pass
-  through it for a few minutes before they are encrypted, and are not kept there.
+- **GitHub (Actions)** — will run that nightly backup job. Photos will pass
+  through it for a few minutes before they are encrypted, and will not be kept there.
 - **RevenueCat** — subscription purchases and entitlement status. It receives an
   app-specific user ID and purchase events, not your journal.
 - **Apple** — payments, and Sign in with Apple if you choose it. We never see
@@ -251,7 +251,7 @@ All of these can be revoked in iOS Settings.
   kept on this phone, and the account itself. It cannot be undone. If a file cannot be removed
   at that moment its path is queued and removed by a cleanup job, rather than
   being left behind quietly.
-- Photos and voice notes are also backed up, encrypted, with a cloud storage provider for at most 7 days.
+- Your diary is backed up every night by our database provider.
 - If the app hits an error, it sends us the kind of error, a short description with anything you wrote removed, the screen it happened on, and the app version. These reports are deleted after 30 days.
 - **Chat:** delete one message, or use "Clear chat". Both are permanent.
 - Deleting your account does **not** cancel an App Store subscription. The app
