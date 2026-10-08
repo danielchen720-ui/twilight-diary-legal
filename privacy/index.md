@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-10-02_
+_Last updated: 2026-10-08_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -71,6 +71,7 @@ In our backend (**Supabase**, US East `us-east-1`):
 | The city you add in Settings, if you add one, and — on each entry written while a city is set — that city | To show the weather on your diary, to show on each entry where you wrote it, and so your friend knows where you are. The city on an entry is stored on our server with that entry: deleting the entry deletes it. You can remove it from one entry, or from all past entries when you remove your city. We never store the weather with an entry |
 | A one-way hash of your PIN (never the PIN itself), and a count of recent PIN checks on a new phone | So you can prove it is you on a new phone, and so the PIN cannot be guessed quickly |
 | AI-usage counts | To apply free and subscription limits |
+| A scrambled code made from a random number the app keeps on this phone | So the free first reply is given once per phone. It is not linked to your account and stays after you delete it |
 | Feature-usage events — which screens and actions, never content | To find where the app confuses people |
 | Subscription status | To unlock paid features (via RevenueCat) |
 
@@ -251,6 +252,10 @@ All of these can be revoked in iOS Settings.
   kept on this phone, and the account itself. It cannot be undone. If a file cannot be removed
   at that moment its path is queued and removed by a cleanup job, rather than
   being left behind quietly.
+  One thing stays after you delete your account: a scrambled code made from a random
+  number the app stored on this phone. It can't be turned back into anything about you
+  or your phone. It only lets us see that this phone already had its one free reply, so
+  deleting and starting over doesn't give another.
 - Your diary is backed up every night by our database provider. Photos are also backed up, encrypted, with a cloud storage provider for at most 7 days.
 - If the app hits an error, it sends us the kind of error, a short description with anything you wrote removed, the screen it happened on, and the app version. These reports are deleted after 30 days.
 - **Chat:** delete one message, or use "Clear chat". Both are permanent.
