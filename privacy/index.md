@@ -168,12 +168,12 @@ these events too.
 
 ## The chat page
 
-This section describes the chat page ("Chat with" + the name you gave him),
-which you reach from his page.
+This section describes the chat page ("Chat with" + the name you gave him/her),
+which you reach from his/her page.
 
-- The friend on the chat page is an AI. The page says "AI" under his name, and
-  his first message there says he is an AI.
-- What you send there, and his replies, are stored in our backend (Supabase), in
+- The friend on the chat page is an AI. The page says "AI" under his/her name, and
+  his/her first message there says he/she is an AI.
+- What you send there, and his/her replies, are stored in our backend (Supabase), in
   your account, the same way your entries are.
 - To write a reply, your recent messages on that page, plus the short notes the
   app keeps about you, are sent to **Anthropic** — the same provider, under the
@@ -185,7 +185,7 @@ which you reach from his page.
   your region straight away. That step is a fixed rule in the app, not a decision
   made by the AI model.
 - "Save as today's page" copies only what **you** said on the chat page today
-  into a new journal entry, which you can edit before saving. His replies are not
+  into a new journal entry, which you can edit before saving. His/Her replies are not
   copied.
 - Messages stay until you delete them. You can delete one message (press and
   hold it), or use "Clear chat" to delete the whole conversation. Both are
@@ -273,7 +273,7 @@ All of these can be revoked in iOS Settings.
   that are stored in our backend are included. The chat page is not included.
 - **Use it without AI:** the journal works without ever asking for a reply. Say
   no on the consent screen, or turn off
-  "writes back" (shown with his name) in Settings.
+  "writes back" (shown with his/her name) in Settings.
 
 ## Children
 
