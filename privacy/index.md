@@ -250,8 +250,7 @@ All of these can be revoked in iOS Settings.
   the notes the app kept about you, your onboarding answers, your city, usage counts, error
   reports, the subscription record, your chat, every voice and photo file, any recordings
   kept on this phone, and the account itself. It cannot be undone. If a file cannot be removed
-  at that moment its path is queued and removed by a cleanup job, rather than
-  being left behind quietly.
+  at that moment its path is queued and removed by a daily cleanup job, normally within 24 hours.
   One thing stays after you delete your account: a scrambled code made from a random
   number the app stored on this phone. It can't be turned back into anything about you
   or your phone. It only lets us see that this phone already had its one free reply, so
