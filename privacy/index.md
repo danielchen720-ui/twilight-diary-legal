@@ -68,7 +68,7 @@ In our backend (**Supabase**, US East `us-east-1`):
 | Messages on the chat page, and the replies to them | So the conversation is there when you come back |
 | Whether an entry has been talked about, and timestamps | Journal display and feature logic |
 | Your onboarding answers (why you came, the name and character you gave your friend, and the face you picked) | To adjust the tone of replies |
-| The city you add in Settings, if you add one, and — on each entry written while a city is set — that city | To show the weather on your diary, to show on each entry where you wrote it, and so your friend knows where you are. The city on an entry is stored on our server with that entry: deleting the entry deletes it. You can remove it from one entry, or from all past entries when you remove your city. We never store the weather with an entry |
+| The city you add in Settings, if you add one, and — on each entry written while a city is set — that city | To show the weather on your diary, to show on each entry where you wrote it, and so your friend knows where you are. The city on an entry is stored on our server with that entry: deleting the entry deletes it. You can remove it from one entry, or from all past entries when you remove your city. Each entry also keeps the weather in your city at the moment you wrote it (a condition such as "Rain" and a temperature), from MET Norway; it is stored with the entry and deleted with it. |
 | A one-way hash of your PIN (never the PIN itself), and a count of recent PIN checks on a new phone | So you can prove it is you on a new phone, and so the PIN cannot be guessed quickly |
 | AI-usage counts | To apply free and subscription limits |
 | A scrambled code made from a random number the app keeps on this phone | So the free first reply is given once per phone. It is not linked to your account and stays after you delete it |
@@ -150,6 +150,7 @@ have agreed:
 - **Apple** — payments, and Sign in with Apple if you choose it. We never see
   your card details.
 - **Apple (WeatherKit)** — if you add a city, our server sends Apple the map coordinates of that city (the same for everyone in it, never your phone's location, and never who you are) to get its weather.
+- **MET Norway** (the Norwegian Meteorological Institute) — if you add a city, our server sends MET Norway the map coordinates of that city (the same for everyone in it, never your phone's location, and never who you are) to get its weather.
 - **Groq** — only for recordings made with an earlier version of the app with
   "More accurate transcription" turned on (see "Voice recordings"). Groq is
   configured for zero data retention. This version sends nothing to Groq.
