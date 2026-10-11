@@ -236,6 +236,7 @@ All of these can be revoked in iOS Settings.
 - No cross-app or cross-site tracking.
 - No third-party analytics SDK, no crash-reporting SDK.
 - No location tracking. The app never asks for or reads your phone's location. If you add a city in Settings, it keeps that city name and nothing more precise.
+  If you start an entry from something you pick in Apple's Journaling Suggestions, only its title, date and place name are saved, as text in the entry; its photos are not copied.
 
 ## Keeping and deleting
 
