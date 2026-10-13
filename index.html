@@ -5,25 +5,38 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Diary BFF — A diary that writes back</title>
 <meta name="description" content="A private diary with a friend inside. You write, and he/she writes back a few lines — and remembers you next time.">
-<meta name="theme-color" content="#F2F2F7" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<!-- Smart App Banner: Safari on iPhone shows "Open / Get" at the top. https://developer.apple.com/documentation/webkit/promoting-apps-with-smart-app-banners -->
+<meta name="apple-itunes-app" content="app-id=6811528172">
+<meta name="theme-color" content="#F4EFE4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#151412" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Diary BFF">
 <meta property="og:title" content="Diary BFF — A diary that writes back">
 <meta property="og:description" content="A private diary with a friend inside. He/she writes back.">
 <meta property="og:url" content="https://diarybff.app/">
+<meta property="og:image" content="https://diarybff.app/assets/og-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Diary BFF icon next to two screens from the app">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="/assets/icon-180.png">
+<link rel="apple-touch-icon" href="/assets/icon-180.png">
 <style>
-  /* ---- tokens: one accent, two radii, 8pt grid, two durations ---- */
+  /* ---- tokens: the app's own (src/design/tokens.ts) — paper, one brown accent, two radii, 8pt grid, two durations ---- */
   :root{
-    --bg:#F2F2F7; --surface:#FFFFFF; --label:#000000; --label2:#3C3C4399; --label3:#3C3C434D;
-    --sep:#3C3C4329; --accent:#0071E3; --fill:#E5E5EA;
-    --r1:12px; --r2:20px;
+    --bg:#F4EFE4; --surface:#FFFFFF;
+    --label:#26221C; --label2:rgba(60,60,67,.75); --sep:rgba(60,60,67,.18);
+    --accent:#8A4A22; --accentFill:#8A4A22; --onAccent:#FFFFFF;
+    --r1:16px; --rfull:9999px;
     --s1:8px; --s2:16px; --s3:24px; --s4:32px; --s6:48px; --s8:64px; --s12:96px;
     --t1:200ms; --t2:300ms;
     --font:-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Helvetica,Arial,sans-serif;
     --display:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Helvetica,Arial,sans-serif;
   }
   @media (prefers-color-scheme: dark){
-    :root{ --bg:#000000; --surface:#1C1C1E; --label:#F2F2F7; --label2:#EBEBF599; --label3:#EBEBF54D;
-      --sep:#54545899; --accent:#0A84FF; --fill:#2C2C2E; }
+    :root{ --bg:#151412; --surface:#2C2B28;
+      --label:#E6E6EB; --label2:rgba(235,235,245,.6); --sep:rgba(235,235,245,.14);
+      --accent:#D9A06C; --accentFill:#9C5A2C; }
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -31,59 +44,53 @@
     -webkit-font-smoothing:antialiased;padding:0 var(--s2)}
   a{color:var(--accent);text-decoration:none;transition:opacity var(--t1)}
   a:hover{opacity:.7}
-  .wrap{max-width:680px;margin:0 auto}
+  .wrap{max-width:960px;margin:0 auto}
   header{display:flex;align-items:center;justify-content:space-between;padding:var(--s3) 0}
-  .mark{font-family:var(--display);font-weight:700;font-size:17px;letter-spacing:-.01em;color:var(--label)}
+  .mark{display:flex;align-items:center;gap:var(--s1);font-family:var(--display);font-weight:700;font-size:17px;color:var(--label)}
+  .mark img{width:32px;height:32px;border-radius:8px}
   nav a{font-size:15px;margin-left:var(--s3)}
-  .hero{padding:var(--s12) 0 var(--s8)}
+  .hero{padding:var(--s8) 0;display:grid;gap:var(--s6);align-items:center}
+  @media (min-width:760px){ .hero{grid-template-columns:1.2fr 1fr;padding:var(--s12) 0} }
   h1{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,64px);line-height:1.05;letter-spacing:-.025em}
-  .lede{margin-top:var(--s3);font-size:21px;line-height:1.45;color:var(--label2);max-width:34ch}
-  .soon{display:inline-block;margin-top:var(--s4);padding:12px var(--s3);border-radius:999px;
-    background:var(--fill);color:var(--label);font-size:15px;font-weight:600}
-  /* a quiet demo of the product, not a screenshot */
-  .page{margin-top:var(--s8);background:var(--surface);border-radius:var(--r2);padding:var(--s4) var(--s3)}
-  .page .date{font-size:13px;color:var(--label2)}
-  .page p.entry{margin-top:var(--s1);font-size:17px}
-  .reply{margin-top:var(--s3);background:var(--bg);border-radius:var(--r1);padding:var(--s2) var(--s2)}
-  .who{display:flex;align-items:center;gap:var(--s1);font-size:15px;font-weight:600}
-  .av{width:24px;height:24px;border-radius:50%;background:var(--fill);color:var(--accent);
-    display:inline-flex;align-items:center;justify-content:center;font-size:13px;font-weight:600}
-  .reply p{margin-top:var(--s1);color:var(--label2)}
+  .lede{margin-top:var(--s3);font-size:20px;line-height:1.45;color:var(--label2);max-width:34ch}
+  .cta{display:inline-block;margin-top:var(--s4);padding:12px var(--s3);border-radius:var(--rfull);
+    background:var(--accentFill);color:var(--onAccent);font-size:17px;font-weight:600}
+  .shot{display:block;width:100%;max-width:300px;height:auto;margin:0 auto;border-radius:var(--r1)}
   section{padding:var(--s8) 0;border-top:1px solid var(--sep)}
   h2{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.2;letter-spacing:-.015em}
-  .grid{margin-top:var(--s4);display:grid;gap:var(--s4)}
+  section > p{margin-top:var(--s2);color:var(--label2);max-width:44ch}
+  .grid{display:grid;gap:var(--s4)}
   @media (min-width:640px){ .grid.three{grid-template-columns:repeat(3,1fr)} }
   h3{font-size:17px;font-weight:600}
   .grid p{margin-top:var(--s1);color:var(--label2);font-size:15px}
-  ul.plain{list-style:none;margin-top:var(--s3)}
-  ul.plain li{padding:var(--s2) 0;border-bottom:1px solid var(--sep)}
-  ul.plain li:last-child{border-bottom:0}
-  ul.plain li span{display:block;color:var(--label2);font-size:15px;margin-top:4px}
-  .free p{margin-top:var(--s2);color:var(--label2);max-width:44ch}
-  .privacy{margin-top:var(--s2);color:var(--label2);max-width:44ch}
-  .social{margin-top:var(--s3);display:flex;flex-wrap:wrap;gap:var(--s2) var(--s3);font-size:17px}
+  .shots{margin-top:var(--s4);display:grid;gap:var(--s3);grid-template-columns:1fr}
+  @media (min-width:640px){ .shots{grid-template-columns:repeat(3,1fr)} }
+  .shots img{display:block;width:100%;max-width:300px;height:auto;margin:0 auto;border-radius:var(--r1)}
+  .badge{display:inline-block;margin-top:var(--s3);padding:var(--s1) 0;line-height:0}
+  .badge img{height:40px;width:auto}
+  .follow{margin-top:var(--s4);color:var(--label2);font-size:15px}
+  .social{margin-top:var(--s1);display:flex;flex-wrap:wrap;gap:var(--s2) var(--s3);font-size:17px}
   footer{padding:var(--s6) 0 var(--s8);border-top:1px solid var(--sep);font-size:13px;color:var(--label2)}
   footer .links a{margin-right:var(--s3)}
   footer p{margin-top:var(--s2);max-width:52ch}
   @media (prefers-reduced-motion:reduce){*{transition:none!important}}
-  /* App Store badge (Apple Marketing Guidelines: unmodified artwork, ≥40px tall on screen, clear space ≥ ¼ of its height, one badge per page) */
-  .badge{display:inline-block;margin-top:var(--s3);padding:var(--s1) 0;line-height:0}
-  .badge img{height:40px;width:auto}
-  .follow{margin-top:var(--s4);color:var(--label2);font-size:15px}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <span class="mark">Diary BFF</span>
+    <span class="mark"><img src="/assets/icon-180.png" alt="" width="32" height="32">Diary BFF</span>
     <nav><a href="/privacy/">Privacy</a><a href="/support/">Support</a></nav>
   </header>
 
   <main>
     <div class="hero">
-      <h1>A diary that<br>writes back.</h1>
-      <p class="lede">Write what's on your mind tonight. When you ask, a friend in your diary writes a few lines back, right under your words.</p>
-      <a class="soon" href="https://apps.apple.com/app/diary-bff/id6811528172">Download on the App Store</a>
+      <div>
+        <h1>A diary that<br>writes back.</h1>
+        <p class="lede">Write what's on your mind tonight. When you ask, a friend in your diary writes a few lines back, right under your words.</p>
+        <a class="cta" href="https://apps.apple.com/app/diary-bff/id6811528172">Download on the App Store</a>
+      </div>
+      <img class="shot" src="/assets/shots/hero.webp" width="600" height="1301" alt="Notes your diary BFF remembers, each with the date you said it">
     </div>
 
     <section>
@@ -94,9 +101,38 @@
       </div>
     </section>
 
+    <!-- A · lock. Copy = the app's own (src/lib/strings.ts lock.onlyYou / the 10-day line; server pin-recovery RESET_WAIT_DAYS = 10). -->
+    <section>
+      <h2>Only you can open it.</h2>
+      <p>Your diary has its own PIN, separate from your phone's. Someone holding your unlocked phone still can't read it. Forget your PIN and even you wait 10 days.</p>
+    </section>
+
+    <!-- B · Sunday letter. No plan differences here; that's the paywall's job. -->
+    <section>
+      <h2>A letter on Sundays.</h2>
+      <p>Once a week, your diary writes you a letter about the week you wrote.</p>
+    </section>
+
+    <!-- D · three store screenshots (1.5 set B, no pronouns in the titles) -->
+    <section>
+      <h2>A look inside.</h2>
+      <div class="shots">
+        <img src="/assets/shots/1.webp" width="600" height="1301" loading="lazy" alt="A diary page at night with a few lines written back under it">
+        <img src="/assets/shots/2.webp" width="600" height="1301" loading="lazy" alt="The diary's own PIN screen">
+        <img src="/assets/shots/3.webp" width="600" height="1301" loading="lazy" alt="A Sunday letter">
+      </div>
+    </section>
+
+    <!-- C · moving in. Uncomment after 1.5.1 is on the App Store. Keep "photos included" out until the device check for photos (#308 case 12) is green.
+    <section>
+      <h2>Bring your old diary with you.</h2>
+      <p>Coming from Day One or Apple Journal? Import your entries in a few taps.</p>
+    </section>
+    -->
+
     <section>
       <h2>Not used to train AI.</h2>
-      <p class="privacy">You can delete everything from Settings, any time.</p>
+      <p>You can delete everything from Settings, any time.</p>
     </section>
 
     <section>
@@ -107,13 +143,11 @@
           <img src="/assets/download-on-the-app-store-black.svg" alt="Download on the App Store" width="120" height="40">
         </picture>
       </a>
+      <!-- Only accounts that have posts. TikTok / YouTube / Pinterest had 0 on 10-12 and were taken off; add them back once they post. -->
       <p class="follow">Follow along:</p>
       <div class="social">
-        <a href="https://www.tiktok.com/@diarybffapp">TikTok</a>
         <a href="https://www.instagram.com/diarybff.app/">Instagram</a>
-        <a href="https://www.youtube.com/@diarybff">YouTube</a>
         <a href="https://x.com/diarybffapp">X</a>
-        <a href="https://www.pinterest.com/diarybffapp/">Pinterest</a>
       </div>
     </section>
   </main>
