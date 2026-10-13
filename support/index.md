@@ -65,10 +65,11 @@ Your account comes back. The app keeps a sign-in key in the iPhone's Keychain fo
 <!-- strings.ts settings.exportIntro 1610 / settings.backupPwd；backup.ts 读 companion_chat_messages（导出含聊天页，1.5 A② 363dc7fd 起） -->
 **Settings → Export and import → Export backup.** You get one file you keep, with your entries, the timestamps, your diary BFF's replies, Sunday letters, and your chats. You can add a password to it. Export is free, as often as you like.
 
+<!-- 1.5.1 上架后打开（strings.ts move.howDayOne / move.howJournal 是 1.5.1 才有的；1.5 线上没有这一项）
 ### Can I move in from Day One or Apple Journal?
 
-<!-- strings.ts move.howDayOne / move.howJournal（1.5.1 起） -->
 Yes. In Day One, open Settings, tap Export and choose JSON. In Journal, tap the More button and choose Export. Save the zip to Files, then in Diary BFF go to **Settings → Export and import** and choose it.
+-->
 
 ### Is writing free?
 
