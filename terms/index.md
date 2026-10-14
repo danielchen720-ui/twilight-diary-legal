@@ -12,7 +12,7 @@ title: Terms of Use — Diary BFF
 
 # Terms of Use
 
-_Last updated: 2026-10-03_
+_Last updated: __LAUNCH_DATE___
 
 These terms are the agreement between you and us, the maker of Diary BFF
 ("Diary BFF", "the app", "we", "us"). By using the app, you agree to them.
@@ -22,7 +22,9 @@ We've tried to write this in plain words. It still matters, so please read it.
 
 ## 1. Who can use it
 
-- You must be **18 or older**. The app is not meant for anyone younger.
+- You must be **13 or older**. The app is not meant for anyone younger.
+- If you are under 18, or under the age of majority where you live, a parent or
+  guardian needs to agree to these terms and to any subscription with you.
 - You are responsible for your account and for what happens on it.
 - Your account is anonymous. There is no email or password we can send you.
   If you link Sign in with Apple, that is how you move the diary to a new phone.

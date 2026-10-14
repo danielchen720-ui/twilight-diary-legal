@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-10-14_
+_Last updated: __LAUNCH_DATE___
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -245,9 +245,12 @@ All of these can be revoked in iOS Settings.
   delete the entry or your account.** They are not a temporary by-product of
   transcription: a recording whose transcription failed *is* the entry. Nothing
   expires them on a timer. (This version makes no new recordings.)
-- **One entry:** press and hold it in the journal, or swipe it, and confirm. Its
-  text, its replies, and any voice or photo files attached to it — on the phone
-  and in our storage — are removed.
+- **One entry:** when you delete it, it moves to Settings → Recently Deleted and
+  stays there for 30 days. While it is there you can restore it, and it is not
+  used for replies, Sunday letters or the notes the app keeps about you. After 30
+  days a daily cleanup job removes it for good: its text, its replies, and any
+  voice or photo files attached to it, on the phone and in our storage. To remove
+  it sooner, delete it from Recently Deleted; that is permanent straight away.
 - **Everything:** Settings → Delete account. This removes your entries, replies,
   the notes the app kept about you, your onboarding answers, your city, usage counts, error
   reports, the subscription record, your chat, every voice and photo file, any recordings
@@ -277,12 +280,27 @@ All of these can be revoked in iOS Settings.
   no on the consent screen, or turn off
   "writes back" (shown with his/her name) in Settings.
 
-## Children
+## Children and teens
 
-The app is not directed to children, and is not intended for anyone under 18.
-Its App Store age rating is set accordingly: versions of iOS that have the newer
-rating bands show it as **18+**, and older versions, which do not have that band,
-show it as **17+**.
+The app is for people **13 and older**, and its App Store age rating is **13+**.
+It is not directed to children under 13, and we do not knowingly collect
+information from anyone under 13. If you think a child under 13 is using it,
+write to hello@diarybff.app. Accounts are anonymous, so we may not be able to
+find a specific one; the account can always be deleted on the phone under
+Settings → Delete account.
+
+If you are 13 to 17, the app works the same way for you as for everyone else.
+This is what is in place today:
+
+- No ads, no public profile, and no way for other people to find you or message
+  you in the app.
+- No tracking across other apps or websites (see "What we do not do").
+- The friend in the app is told never to act like a partner: no romance, no
+  flirting, no "I love you".
+- If what you write suggests you may be in danger, the reply is a short message
+  with crisis lines for your region instead of an ordinary reply.
+- Payments go through Apple, so the family settings on your Apple Account, such
+  as Ask to Buy, apply.
 
 ## Changes
 

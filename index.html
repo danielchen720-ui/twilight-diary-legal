@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Diary BFF — A diary that writes back</title>
-<meta name="description" content="A private diary with a friend inside. You write, and he/she writes back a few lines — and remembers you next time.">
+<meta name="description" content="A private diary with a friend inside. You write, and your diary BFF writes back a few lines — and remembers you next time.">
 <!-- Smart App Banner: Safari on iPhone shows "Open / Get" at the top. https://developer.apple.com/documentation/webkit/promoting-apps-with-smart-app-banners -->
 <meta name="apple-itunes-app" content="app-id=6811528172">
 <meta name="theme-color" content="#F4EFE4" media="(prefers-color-scheme: light)">
@@ -12,7 +12,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Diary BFF">
 <meta property="og:title" content="Diary BFF — A diary that writes back">
-<meta property="og:description" content="A private diary with a friend inside. He/she writes back.">
+<meta property="og:description" content="A private diary with a friend inside that writes back.">
 <meta property="og:url" content="https://diarybff.app/">
 <meta property="og:image" content="https://diarybff.app/assets/og-1200x630.png">
 <meta property="og:image:width" content="1200">
@@ -53,6 +53,7 @@
   @media (min-width:760px){ .hero{grid-template-columns:1.2fr 1fr;padding:var(--s12) 0} }
   h1{font-family:var(--display);font-weight:700;font-size:clamp(40px,8vw,64px);line-height:1.05;letter-spacing:-.025em}
   .lede{margin-top:var(--s3);font-size:20px;line-height:1.45;color:var(--label2);max-width:34ch}
+  .note{margin-top:var(--s2);font-size:13px;color:var(--label2);max-width:40ch}
   .cta{display:inline-block;margin-top:var(--s4);padding:12px var(--s3);border-radius:var(--rfull);
     background:var(--accentFill);color:var(--onAccent);font-size:17px;font-weight:600}
   .shot{display:block;width:100%;max-width:300px;height:auto;margin:0 auto;border-radius:var(--r1)}
@@ -86,16 +87,18 @@
       <div>
         <h1>A diary that<br>writes back.</h1>
         <p class="lede">Write what's on your mind tonight. When you ask, a friend in your diary writes a few lines back, right under your words.</p>
-        <a class="cta" href="https://apps.apple.com/app/diary-bff/id6811528172">Download on the App Store</a>
+        <a class="cta" href="https://apps.apple.com/app/apple-store/id6811528172?pt=129391747&amp;ct=site&amp;mt=8">Download on the App Store</a>
+        <!-- #684 price fact, no amounts (prices only come from the App Store). Source: app_config free tier + ASC 14-day intro offer (CLAUDE.md §1). -->
+        <p class="note">Writing is free. Replies and the full Sunday letter come with a subscription that starts with a 14-day free trial.</p>
       </div>
       <img class="shot" src="/assets/shots/hero.webp" width="600" height="1301" alt="Notes your diary BFF remembers, each with the date you said it">
     </div>
 
     <section>
       <div class="grid three">
-        <div><h3>One page.</h3><p>Your words and his/her replies run together on the same page, like a diary someone read and answered.</p></div>
-        <div><h3>He/she speaks when asked.</h3><p>A few lines when you tap Ask. No lectures, no lists of advice.</p></div>
-        <div><h3>He/she remembers.</h3><p>Weeks later he/she can bring up what you told him/her, with the date.</p></div>
+        <div><h3>One page.</h3><p>Your words and the replies run together on the same page, like a diary someone read and answered.</p></div>
+        <div><h3>Speaks when asked.</h3><p>A few lines when you tap Ask. No lectures, no lists of advice.</p></div>
+        <div><h3>Remembers.</h3><p>Weeks later your diary BFF can bring up something you said, with the date.</p></div>
       </div>
     </section>
 
@@ -135,7 +138,7 @@
 
     <section>
       <h2>Get Diary BFF.</h2>
-      <a class="badge" href="https://apps.apple.com/app/diary-bff/id6811528172" aria-label="Download Diary BFF on the App Store">
+      <a class="badge" href="https://apps.apple.com/app/apple-store/id6811528172?pt=129391747&amp;ct=site&amp;mt=8" aria-label="Download Diary BFF on the App Store">
         <picture>
           <source srcset="/assets/download-on-the-app-store-white.svg" media="(prefers-color-scheme: dark)">
           <img src="/assets/download-on-the-app-store-black.svg" alt="Download on the App Store" width="120" height="40">
