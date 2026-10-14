@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-10-08_
+_Last updated: 2026-10-14_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -191,7 +191,7 @@ which you reach from his/her page.
 - Messages stay until you delete them. You can delete one message (press and
   hold it), or use "Clear chat" to delete the whole conversation. Both are
   permanent and cannot be undone. Deleting your account deletes the chat too.
-- The chat is not included when you export.
+- The chat is included when you export (see "Your choices").
 
 ## Free and paid
 
@@ -269,9 +269,10 @@ All of these can be revoked in iOS Settings.
 
 ## Your choices
 
-- **Export:** Settings → Export & Import. Your entries, photos and replies,
-  optionally password-encrypted, at any time. Recordings from earlier versions
-  that are stored in our backend are included. The chat page is not included.
+- **Export:** Settings → Export & Import. Your entries, photos, replies, Sunday
+  letters, the notes the app keeps about you, and the chat page, optionally
+  password-encrypted, at any time. Recordings from earlier versions that are
+  stored in our backend are included.
 - **Use it without AI:** the journal works without ever asking for a reply. Say
   no on the consent screen, or turn off
   "writes back" (shown with his/her name) in Settings.
