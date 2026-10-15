@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: __LAUNCH_DATE___
+_Last updated: 2026-10-15_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.

@@ -12,7 +12,7 @@ title: Terms of Use — Diary BFF
 
 # Terms of Use
 
-_Last updated: __LAUNCH_DATE___
+_Last updated: 2026-10-15_
 
 These terms are the agreement between you and us, the maker of Diary BFF
 ("Diary BFF", "the app", "we", "us"). By using the app, you agree to them.
