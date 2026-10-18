@@ -73,6 +73,7 @@ In our backend (**Supabase**, US East `us-east-1`):
 | AI-usage counts | To apply free and subscription limits |
 | A scrambled code made from a random number the app keeps on this phone | So the free first reply is given once per phone. It is not linked to your account and stays after you delete it |
 | Feature-usage events — which screens and actions, never content | To find where the app confuses people |
+| The result of the age check, if your phone asks for one (see "Children and teens"): adult, 13–17, under 13, declined, or not available. Never your birthday or exact age | To know how many people the check stops. Kept as one usage event; deleted with your account |
 | Subscription status | To unlock paid features (via RevenueCat) |
 
 That list is meant to be complete. If it stops being complete, this page is wrong
@@ -196,7 +197,7 @@ which you reach from his/her page.
 ## Free and paid
 
 Writing is free — typing, voice, a photo with each entry, export, and the PIN lock
-are free.
+are free. A subscription also lets each entry hold more photos.
 
 What a subscription buys is **more replies** and the full Sunday letter, within a
 monthly fair-use limit: after very heavy use in a calendar month, replies drop
@@ -288,6 +289,13 @@ information from anyone under 13. If you think a child under 13 is using it,
 write to hello@diarybff.app. Accounts are anonymous, so we may not be able to
 find a specific one; the account can be deleted on the phone under
 Settings → Delete account.
+
+Where the law requires apps to check age, the app asks Apple once after you
+unlock it, and again after 30 days. Apple shares only an age range, never your
+birthday. If the range is under 13, the app does not open. If you choose not to
+share it, the app waits until you do. Your phone keeps only the date of the last
+check; our server keeps one record of the result (the range, "declined", or "not
+available" — see "What we store"), never your birthday or exact age.
 
 If you are 13 to 17, the app works the same way for you as for everyone else.
 This is what is in place today:
