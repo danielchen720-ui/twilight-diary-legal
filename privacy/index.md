@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-10-15_
+_Last updated: 2026-10-18_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -196,7 +196,7 @@ which you reach from his/her page.
 ## Free and paid
 
 Writing is free — typing, voice, photos, export, and the PIN lock
-never cost anything.
+are free.
 
 What a subscription buys is **more replies** and the full Sunday letter, within a
 monthly fair-use limit: after very heavy use in a calendar month, replies drop
