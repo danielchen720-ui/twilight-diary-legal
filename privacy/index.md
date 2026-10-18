@@ -195,7 +195,7 @@ which you reach from his/her page.
 
 ## Free and paid
 
-Writing is free — typing, voice, photos, export, and the PIN lock
+Writing is free — typing, voice, a photo with each entry, export, and the PIN lock
 are free.
 
 What a subscription buys is **more replies** and the full Sunday letter, within a
@@ -286,7 +286,7 @@ The app is for people **13 and older**, and its App Store age rating is **13+**.
 It is not directed to children under 13, and we do not knowingly collect
 information from anyone under 13. If you think a child under 13 is using it,
 write to hello@diarybff.app. Accounts are anonymous, so we may not be able to
-find a specific one; the account can always be deleted on the phone under
+find a specific one; the account can be deleted on the phone under
 Settings → Delete account.
 
 If you are 13 to 17, the app works the same way for you as for everyone else.
