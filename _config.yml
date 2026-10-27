@@ -18,6 +18,9 @@ title: Diary BFF
 description: Privacy Policy and Support
 plugins:
   - jekyll-redirect-from
+  # #2320: /sitemap.xml (and /robots.txt pointing at it) for Search Console. Pages with
+  # `sitemap: false` in their front matter stay out --- /tiktok/ is noindex.
+  - jekyll-sitemap
 
 # Keep the repository's own notes out of what gets served. README.md has no front
 # matter, so Jekyll would copy it through verbatim and serve it as a file --- and

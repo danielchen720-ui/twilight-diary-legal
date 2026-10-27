@@ -156,5 +156,22 @@
     <p>© 2026 Diary BFF</p>
   </footer>
 </div>
+{% comment %}#2341：目录站（TAAFT 之类）挂的是 diarybff.app/?ref=<站名> 或 ?utm_source=<站名>。首页（ct = site）读到就把下载链接的 ct 改成 dir-<站名>，ASC「App Downloads Detailed」的 Campaign 列按站分得开。只留 [a-z0-9-]、ct ≤ 30 字符（Apple 上限：manage-campaigns 那页 up to 30 characters）；/tiktok/ 那一页不改；没带参数什么都不做。check/seo.py ⑤ 把这段原样拿去 node 里跑。不发到页面上。{% endcomment %}
+{% unless page.ct and page.ct != "site" %}
+<script>
+(function () {
+  var q = new URLSearchParams(location.search);
+  var name = (q.get('ref') || q.get('utm_source') || '').toLowerCase()
+    .replace(/^www\./, '').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 26).replace(/-+$/, '');
+  if (!name) return;
+  var links = document.querySelectorAll('a[href^="https://apps.apple.com/"]');
+  for (var i = 0; i < links.length; i++) {
+    var u = new URL(links[i].href);
+    u.searchParams.set('ct', 'dir-' + name);
+    links[i].href = u.toString();
+  }
+})();
+</script>
+{% endunless %}
 </body>
 </html>
