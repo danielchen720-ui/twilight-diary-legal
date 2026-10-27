@@ -10,6 +10,10 @@
    没有比 App 走得远的那几句（「Two to four sentences」= 提示词定的是 1–2 句最多 3；「neutral count … nothing else」=
    日记本上还有一句 `{n} nights in a row.`；`No streaks` = App 那边 paywallNoStreakClaim 明令不许这么扩写）
 ④ sitemap：_config.yml 开 jekyll-sitemap；/tiktok/ 是 noindex 的那一页，sitemap: false
+⑥ #2414（总经理裁：同题两页互抢）：旧 /rosebud/（Q128 草稿）不再是一页，改成跳到 /rosebud-alternative/ ——
+   GitHub Pages 发不了 HTTP 301，用 jekyll-redirect-from 的 redirect_from 出一张即时 meta refresh 页；
+   Google 原句「Google Search interprets instant meta refresh redirects as permanent redirects」
+   （https://developers.google.com/search/docs/crawling-indexing/301-redirects）。那张跳转页插件自己标 sitemap: false。
 ⑤ 首页（ct = site）带 ?ref= / ?utm_source= 进来 → 下载链接 ct 改成 dir-<站名>（只 [a-z0-9-]，ct ≤ 30 字符）；
    /tiktok/ 不改；没带参数不改。这一格把 home.html 里那段脚本原样拿出来在 node 里跑，喂假的 location / 链接
 推完之后的那一半：`curl -fsSL https://diarybff.app/sitemap.xml | grep -c '<loc>'`、四篇各 `curl -fsSL … | grep -c 'ct=seo-'`（部署卡上那几格）。
@@ -166,12 +170,23 @@ def check_home_js(out):
             out.append(f"首页 {search} → ct {g!r} 不是 [a-z0-9-]、≤30 字符")
 
 
+def check_rosebud_redirect(out):
+    if read("rosebud/index.html") is not None or read("rosebud/index.md") is not None:
+        out.append("rosebud/index.*：旧 /rosebud/ 还是一页 —— 和 /rosebud-alternative/ 同题互抢（#2414），删掉、交给 redirect_from")
+    fm, _ = split_front(read("rosebud-alternative/index.md"))
+    if not fm or fm.get("redirect_from") != "/rosebud/":
+        out.append("rosebud-alternative/index.md：front matter 没有 redirect_from: /rosebud/（#2414）")
+    if "jekyll-redirect-from" not in (read("_config.yml") or ""):
+        out.append("_config.yml：plugins 里没有 jekyll-redirect-from，redirect_from 不生效")
+
+
 def problems():
     out = []
     check_pages(out)
     check_layout(out)
     check_sitemap(out)
     check_home_js(out)
+    check_rosebud_redirect(out)
     return out
 
 
@@ -179,5 +194,5 @@ if __name__ == "__main__":
     p = problems()
     for x in p:
         print("✗ " + x)
-    print("✓ 四篇挂好、按钮 ct=seo-<篇名>、sitemap 开、首页 ref → ct=dir-<站名>" if not p else f"#2320/#2341 核：{len(p)} 处不对")
+    print("✓ 四篇挂好、按钮 ct=seo-<篇名>、sitemap 开、首页 ref → ct=dir-<站名>、/rosebud/ → /rosebud-alternative/" if not p else f"#2320/#2341 核：{len(p)} 处不对")
     sys.exit(1 if p else 0)
