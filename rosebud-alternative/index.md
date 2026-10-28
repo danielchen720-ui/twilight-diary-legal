@@ -65,7 +65,7 @@ A few related details:
 
 ### Nothing to keep up
 
-Diary BFF has no badges or check-ins, and there's no streak to keep and nothing to break. Writing four nights one week and none the next is not something the app will point out to you.
+Diary BFF has no badges or check-ins. Skip a night, and it won't bring it up. Writing four nights one week and none the next is not something the replies will point out to you.
 
 ## Side by side
 
@@ -87,7 +87,7 @@ Pick **Rosebud** if you want a structured personal-growth tool with goals, habit
 
 Pick **Diary BFF** if you mostly write at night, want something that feels like telling a friend rather than doing an exercise, and want a diary that stays closed even when your phone is open.
 
-Writing stays free, and your first reply is free too. More replies and the full Sunday letter come with the full version, which starts with a free trial.
+Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.
 
 
 <small>Rosebud details are from rosebud.app, help.rosebud.app, and Rosebud's App Store listing, checked October 2026. Rosebud is a trademark of its owner; Diary BFF is not affiliated with it.</small>
