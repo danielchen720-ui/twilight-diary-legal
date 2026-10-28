@@ -46,7 +46,7 @@ Replies happen in the moment. Once a week, there's something slower: your diary 
 
 Some things were left out on purpose:
 
-- **Nothing to keep up.** No badges, no check-ins, no "you missed a day." There's no streak to keep and nothing to break.
+- **Nothing to keep up.** No badges, no check-ins, no "you missed a day." Skip a night, and it won't bring it up.
 - **No interruptions.** It doesn't jump in while you write.
 - **No sales talk.** Your diary BFF doesn't bring up subscriptions in its replies.
 
@@ -62,4 +62,4 @@ Related: [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-b
 
 You don't need a prompt or a plan. Open the app tonight and write one line about whatever your head is doing. Then ask your diary BFF what it thinks.
 
-Writing stays free, and your first reply is free too. More replies and the full Sunday letter come with the full version, which starts with a free trial.
+Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

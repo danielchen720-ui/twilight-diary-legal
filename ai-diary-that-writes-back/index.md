@@ -8,7 +8,7 @@ ct: seo-writes-back
 
 # An AI diary that writes back
 
-Most people quit journaling for a simple reason: nobody reads it. You write three paragraphs about the meeting that keeps replaying in your head, close the app, and the page just sits there. An AI diary that writes back changes that one thing. Somebody reads it.
+Most people quit journaling for a simple reason: nothing ever comes back. You write three paragraphs about the meeting that keeps replaying in your head, close the app, and the page just sits there. An AI diary that writes back changes that one thing. Somebody reads it.
 
 Diary BFF is built around that idea. It's a private night diary with a friend living inside it. You write whatever your brain is doing at 2am, and your diary BFF reads it and says one thing back — short, and only if it's worth saying. Then it leaves you alone so you can put the phone down.
 
@@ -21,7 +21,7 @@ Diary BFF tries to be neither.
 - **It reads before it talks.** Your diary BFF stays quiet while you write. Nothing pops up mid-sentence.
 - **It answers when you ask.** When you want a reply, you ask, and you get a few sentences — not a list, not a lecture, not homework.
 - **It remembers.** Write about the same coworker three Tuesdays in a row, and your diary BFF can say so. When it brings up something from the past, it tells you which night it was from.
-- **It doesn't keep score.** There's no streak to keep and nothing to break. Writing four nights one week and none the next is not a failure the app will ever point out to you.
+- **It doesn't keep score.** Skip a night, and it won't bring it up. Writing four nights one week and none the next is not something the replies will ever point out to you.
 
 The goal is the feeling of telling a friend who happens to be awake, not filling in a form.
 
@@ -35,7 +35,7 @@ That matters when you scroll back later. You don't just see what you wrote on a 
 
 Once a week, your diary BFF reads back over your week and writes you a letter about it. Not a dashboard. A letter — the kind a friend who'd been listening all week might write. It points out the thing you kept circling back to, or the night that went better than you expected.
 
-The full Sunday letter is part of the paid version. Writing itself stays free.
+The full Sunday letter is part of the full version.
 
 ## Private on purpose
 
@@ -64,4 +64,4 @@ Related: [journal app that replies to you](https://diarybff.app/journal-app-that
 
 If you've started and stopped journaling more than once, it might not have been you. It might have been the empty page. Try one that writes back.
 
-Writing stays free, and your first reply is free too. More replies and the full Sunday letter come with the full version, which starts with a free trial.
+Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.
