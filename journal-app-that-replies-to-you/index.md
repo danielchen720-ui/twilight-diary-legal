@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A journal app that replies to you — then lets you go"
-description: "Diary BFF is a journal app that replies to you like a friend: a few sentences, only when you ask, and it remembers last week. Private, PIN-locked."
+description: "Diary BFF is a journal app that replies to you: a few sentences, only when you ask, and it remembers what you wrote, with the date. PIN-locked."
 ct: seo-replies
 ---
 
