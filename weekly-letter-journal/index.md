@@ -45,6 +45,8 @@ Reading your own week back, in different words, is often the moment a pattern be
 - People who write a few lines most nights and want to see the shape of the week.
 - Anyone who'd like a letter to read on Sunday morning.
 
+Related: [journal app that replies to you](https://diarybff.app/journal-app-that-replies-to-you/) · [chat journal app](https://diarybff.app/chat-journal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

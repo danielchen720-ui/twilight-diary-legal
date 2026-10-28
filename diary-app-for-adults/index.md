@@ -41,6 +41,8 @@ Adults share phones, couches, and households. Diary BFF opens with its own PIN, 
 - People whose day only slows down late at night.
 - Anyone who's kept a journal before and wished it would say something back.
 
+Related: [secret diary app](https://diarybff.app/secret-diary-app/) · [journal app with password](https://diarybff.app/journal-app-with-password/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

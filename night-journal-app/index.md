@@ -57,7 +57,7 @@ Once a week, your diary BFF reads back over your nights and writes you a letter 
 
 A night journal app shouldn't make you feel behind. Diary BFF doesn't count against you. Write four nights one week and none the next, and the app won't bring it up.
 
-Related: [bedtime journal app](https://diarybff.app/bedtime-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [Diary BFF](https://diarybff.app/)
+Related: [bedtime journal app](https://diarybff.app/bedtime-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [3am journal app](https://diarybff.app/3am-journal-app/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

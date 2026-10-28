@@ -43,6 +43,8 @@ Skip a night, and it won't bring it up.
 - People who'd rather write than wake someone up.
 - Anyone who wants the thought out of their head and onto a page, so it can wait until morning.
 
+Related: [night journal app](https://diarybff.app/night-journal-app/) · [overthinking journal](https://diarybff.app/overthinking-journal/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and the next time it's 3am, write one entry. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

@@ -60,7 +60,7 @@ Ask three questions of any app you're considering:
 
 Diary BFF answers those as: no, yes, and no.
 
-Related: [diary with pin](https://diarybff.app/diary-with-pin/) · [secret diary app](https://diarybff.app/secret-diary-app/) · [Diary BFF](https://diarybff.app/)
+Related: [diary with pin](https://diarybff.app/diary-with-pin/) · [secret diary app](https://diarybff.app/secret-diary-app/) · [journal app with password](https://diarybff.app/journal-app-with-password/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

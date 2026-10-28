@@ -62,6 +62,10 @@ PAGES = {
     # #2550：第 21–22 篇（市场部 #2545）：weekly letter journal · diary app for adults
     "weekly-letter-journal": "seo-letter",
     "diary-app-for-adults": "seo-adults",
+    # #2599：第 23–24 篇（市场部 #2552，含 #2598 两处改）：overthinking journal · chat journal app
+    # 和内链表同一笔上：20 / 21 / 14 / 11 四篇链到它俩，分开上就是死链
+    "overthinking-journal": "seo-overthinking",
+    "chat-journal-app": "seo-chat",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
