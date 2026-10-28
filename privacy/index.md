@@ -162,9 +162,9 @@ have agreed:
   app-specific user ID and purchase events, not your journal.
   If you found the app through an Apple Ads ad, RevenueCat also receives a token
   from Apple that tells us which of our ad campaigns led to the install (Apple's
-  standard attribution; see "What we store"). It does not say who you are, it is
-  not shared with ad networks or data brokers, and it is never used to track you
-  across other apps or websites.
+  standard attribution; see "What we store"). It does not include your name, your
+  advertising identifier or anything you wrote. It is not shared with ad networks
+  or data brokers, and it is never used to track you across other apps or websites.
 - **Apple** — payments, and Sign in with Apple if you choose it. We never see
   your card details.
 - **Apple (WeatherKit)** — if you add a city, our server sends Apple the map coordinates of that city (the same for everyone in it, never your phone's location, and never who you are) to get its weather.

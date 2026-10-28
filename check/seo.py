@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""#2320 + #2341：四篇 SEO 文章挂站 + 免费渠道分账 ct。只读，本机没有 jekyll 也能跑（JS 那一格要 node）。
+"""#2320 + #2341（+ #2454 第 5–6 篇）：SEO 文章挂站 + 免费渠道分账 ct。只读，本机没有 jekyll 也能跑（JS 那一格要 node）。
 
     python3 check/seo.py      → 退出 0 = 全对；1 = 哪一条不对印出来
 
 核的是源，不是 build 出来的页（本机没有 jekyll）：
-① 四篇各在 <篇名>/index.md，layout: article，ct = seo-<短篇名>（表在 PAGES；≤ 30 字符），title / description 都有、description ≤ 155 字符
+① 每篇各在 <篇名>/index.md，layout: article，ct = seo-<短篇名>（表在 PAGES；≤ 30 字符），title / description 都有、description ≤ 155 字符
 ② _layouts/article.html：每个 App Store 链接 ct 只读 page.ct（不给默认值）、带 pt；canonical 指本页；不带 noindex
 ③ 正文里没有自己写死的 App Store 链接（按钮只在 layout 里一处）、没有孤零零的 he / him / his（老板 10-08 he/she 规矩）、
    没有比 App 走得远的那几句（「Two to four sentences」= 提示词定的是 1–2 句最多 3；「neutral count … nothing else」=
@@ -16,7 +16,7 @@
    （https://developers.google.com/search/docs/crawling-indexing/301-redirects）。那张跳转页插件自己标 sitemap: false。
 ⑤ 首页（ct = site）带 ?ref= / ?utm_source= 进来 → 下载链接 ct 改成 dir-<站名>（只 [a-z0-9-]，ct ≤ 30 字符）；
    /tiktok/ 不改；没带参数不改。这一格把 home.html 里那段脚本原样拿出来在 node 里跑，喂假的 location / 链接
-推完之后的那一半：`curl -fsSL https://diarybff.app/sitemap.xml | grep -c '<loc>'`、四篇各 `curl -fsSL … | grep -c 'ct=seo-'`（部署卡上那几格）。
+推完之后的那一半：`curl -fsSL https://diarybff.app/sitemap.xml | grep -c '<loc>'`、每篇各 `curl -fsSL … | grep -c 'ct=seo-'`（部署卡上那几格）。
 """
 import json
 import os
@@ -34,6 +34,10 @@ PAGES = {
     "journal-app-that-replies-to-you": "seo-replies",
     "private-diary-with-pin-lock": "seo-pin-lock",
     "rosebud-alternative": "seo-rosebud",
+    # #2454（市场部 #2451 第 5–6 篇）：和第 4 篇分开讲 —— 第 4 篇讲「为什么锁要和手机分开」，
+    # 这两篇一篇讲 PIN 本身、一篇讲「锁有三种」
+    "diary-with-pin": "seo-pin",
+    "journal-with-lock": "seo-lock",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
@@ -194,5 +198,5 @@ if __name__ == "__main__":
     p = problems()
     for x in p:
         print("✗ " + x)
-    print("✓ 四篇挂好、按钮 ct=seo-<篇名>、sitemap 开、首页 ref → ct=dir-<站名>、/rosebud/ → /rosebud-alternative/" if not p else f"#2320/#2341 核：{len(p)} 处不对")
+    print(f"✓ {len(PAGES)} 篇挂好、按钮 ct=seo-<篇名>、sitemap 开、首页 ref → ct=dir-<站名>、/rosebud/ → /rosebud-alternative/" if not p else f"#2320/#2341 核：{len(p)} 处不对")
     sys.exit(1 if p else 0)
