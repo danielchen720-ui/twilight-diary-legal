@@ -48,6 +48,8 @@ PAGES = {
     # #2513（市场部 #2506 第 13–14 篇）：secret diary app（带锁的小日记本）· vent journal app（一口气写出来）
     "secret-diary-app": "seo-secret",
     "vent-journal-app": "seo-vent",
+    "bedtime-journal-app": "seo-bedtime",
+    "pen-pal-app": "seo-penpal",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
