@@ -53,6 +53,8 @@ Pick a PIN you'll remember, and don't reuse your phone's passcode — that would
 
 A private diary should feel like a place you go when you need it, not a habit you're failing at. Diary BFF has no badges and no "you missed a day" messages. There's no streak to keep and nothing to break.
 
+Related: [diary with pin](https://diarybff.app/diary-with-pin/) · [private diary app](https://diarybff.app/private-diary-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Who it's for
 
 Diary BFF is for anyone who wants to write honestly and needs to know the page is theirs: people sharing a phone passcode with a partner, people living with family, anyone who's ever stopped mid-sentence, not sure who'd read it.

@@ -79,6 +79,8 @@ Diary BFF has no badges or check-ins, and there's no streak to keep and nothing 
 
 Features change; check each app's current listing before you decide.
 
+Related: [Day One alternative](https://diarybff.app/day-one-alternative/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [Diary BFF](https://diarybff.app/)
+
 ## Which one should you pick?
 
 Pick **Rosebud** if you want a structured personal-growth tool with goals, habits, guided journals, and access on Android or the web.

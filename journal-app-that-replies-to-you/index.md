@@ -56,6 +56,8 @@ A journal that replies only works if you're willing to write the real thing. Dia
 
 Notifications never show what you wrote. Your entries are not used to train AI. You can export your diary any time, and exported backups can be locked too.
 
+Related: [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [pen pal app](https://diarybff.app/pen-pal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Start with one line
 
 You don't need a prompt or a plan. Open the app tonight and write one line about whatever your head is doing. Then ask your diary BFF what it thinks.

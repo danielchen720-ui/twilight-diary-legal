@@ -53,6 +53,12 @@ PAGES = {
     # #2532（市场部 #2529 第 17–18 篇）：daily journal app（跳过一晚不提）· voice journal app（说出来、转成字）
     "daily-journal-app": "seo-daily",
     "voice-journal-app": "seo-voice",
+    # #2541：第 7–8 篇（市场部 #2458 / #2467 审过，原来没挂；内链表 #2535 有 5 篇链到它俩，不挂就是 404）
+    # + 第 19–20 篇（市场部 #2533）：journal app with password（设 / 改 / 忘）· 3am journal app
+    "day-one-alternative": "seo-dayone",
+    "night-journal-app": "seo-night",
+    "journal-app-with-password": "seo-password",
+    "3am-journal-app": "seo-3am",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (

@@ -29,7 +29,7 @@ The third kind is a journal with a lock of its own — a code that has nothing t
 
 That's how Diary BFF works. It opens with its own PIN, separate from your phone's passcode. Your phone can be unlocked and in someone else's hand, and the journal still asks for its own code. There's no Face ID or Touch ID shortcut, by design: a face unlock opens for the phone, and a journal needs a lock that opens for the writer.
 
-There's also no account and no sign-up, so there's nothing to recover by logging in somewhere else. The PIN is the lock, and it's the only key.
+There's also no sign-up, so there's nothing to recover by logging in somewhere else. The PIN is the lock, and it's the only key.
 
 ## What happens if you lose the key
 
@@ -59,6 +59,8 @@ Ask three questions of any app you're considering:
 3. **Do notifications show what I wrote?** A locked journal that previews your entry on the lock screen isn't really locked.
 
 Diary BFF answers those as: no, yes, and no.
+
+Related: [diary with pin](https://diarybff.app/diary-with-pin/) · [secret diary app](https://diarybff.app/secret-diary-app/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

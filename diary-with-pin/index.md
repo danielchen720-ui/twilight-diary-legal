@@ -15,7 +15,7 @@ Diary BFF opens with a PIN of its own. It isn't your phone's passcode, and it is
 
 ## How the PIN works
 
-You set a PIN the first time you open the app. There is no sign-up and no account to create — you write, and the PIN is the lock.
+You set a PIN the first time you open the app. There is no sign-up — you write, and the PIN is the lock.
 
 After that, the app asks for the PIN when you open it. Your phone's passcode doesn't open it. Your face doesn't open it either: Diary BFF has no Face ID or Touch ID unlock, by design. A face unlock answers "is this the phone's owner?", and a phone gets unlocked for plenty of people who are not the person writing the diary.
 
@@ -61,6 +61,8 @@ On Sundays, it writes you a letter about your week. Your writing, the chat and t
 - Anyone who has stopped halfway through a sentence because of who might read it.
 
 If that's you, the PIN is the feature, not the friction.
+
+Related: [private diary with PIN lock](https://diarybff.app/private-diary-with-pin-lock/) · [journal with lock](https://diarybff.app/journal-with-lock/) · [Diary BFF](https://diarybff.app/)
 
 ## Getting started
 

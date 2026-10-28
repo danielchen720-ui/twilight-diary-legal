@@ -58,6 +58,8 @@ It's designed so you can start with zero decisions: open it, write a line, and y
 
 Diary BFF isn't a coach, a productivity system, or a replacement for the people in your life. It won't put labels on you, and it won't hand you a five-step plan unless you ask for one. It's a diary, first — one that happens to have someone in it who reads.
 
+Related: [journal app that replies to you](https://diarybff.app/journal-app-that-replies-to-you/) · [ai diary app](https://diarybff.app/ai-diary-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 If you've started and stopped journaling more than once, it might not have been you. It might have been the empty page. Try one that writes back.

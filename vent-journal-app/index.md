@@ -39,6 +39,8 @@ If you're venting about the same person for the third Tuesday in a row, that's w
 
 The point of venting is to get it out of your head so you can stop carrying it. A vent journal app should let you put the phone down. Diary BFF doesn't send reminders to write, and if you skip a night, it won't bring it up.
 
+Related: [night journal app](https://diarybff.app/night-journal-app/) · [voice journal app](https://diarybff.app/voice-journal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

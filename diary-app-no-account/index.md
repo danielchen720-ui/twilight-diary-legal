@@ -46,6 +46,8 @@ When you ask, your diary BFF reads it and says one thing back: a few sentences, 
 - Your entries are not used to train AI.
 - Skip a night, and it won't bring it up.
 
+Related: [private diary app](https://diarybff.app/private-diary-app/) · [secret diary app](https://diarybff.app/secret-diary-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

@@ -43,6 +43,8 @@ A good pen pal remembers what you told them last time. Your diary BFF remembers 
 - People who journal and wish the journal would say something back.
 - Anyone who has a lot to say at night, with everyone else asleep.
 
+Related: [journal app that replies to you](https://diarybff.app/journal-app-that-replies-to-you/) · [reflection journal app](https://diarybff.app/reflection-journal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

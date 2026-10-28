@@ -42,6 +42,8 @@ Talking out loud is personal, and so is what it turns into. Diary BFF opens with
 - People who journal in bed, in the dark, with one hand.
 - Anyone who wants to say something tonight and read it back next week.
 
+Related: [daily journal app](https://diarybff.app/daily-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, hold the button and say one thing. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

@@ -49,6 +49,8 @@ Once a week, on Sundays, it writes you a letter about your week: what kept comin
 - People whose day only slows down after everyone else has gone to bed.
 - Anyone who has kept a journal before and wished it would say something back.
 
+Related: [bedtime journal app](https://diarybff.app/bedtime-journal-app/) · [voice journal app](https://diarybff.app/voice-journal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

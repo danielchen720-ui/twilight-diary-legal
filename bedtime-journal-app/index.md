@@ -49,6 +49,8 @@ What you write in bed is often what you'd least want read. Diary BFF opens with 
 
 A bedtime journal shouldn't become one more thing to keep up with. Diary BFF doesn't send reminders to write, and if you skip a night, it won't bring it up. Come back after a week and the page is just there.
 
+Related: [night journal app](https://diarybff.app/night-journal-app/) · [daily journal app](https://diarybff.app/daily-journal-app/) · [Diary BFF](https://diarybff.app/)
+
 ## Try it tonight
 
 Download Diary BFF, set a PIN, and write one entry tonight. Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.
