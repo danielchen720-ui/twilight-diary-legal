@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""#2320 + #2341（+ #2454 第 5–6 篇）：SEO 文章挂站 + 免费渠道分账 ct。只读，本机没有 jekyll 也能跑（JS 那一格要 node）。
+"""#2320 + #2341（+ #2454 第 5–6 篇 · #2487 第 9–10 篇）：SEO 文章挂站 + 免费渠道分账 ct。只读，本机没有 jekyll 也能跑（JS 那一格要 node）。
 
     python3 check/seo.py      → 退出 0 = 全对；1 = 哪一条不对印出来
 
@@ -38,6 +38,10 @@ PAGES = {
     # 这两篇一篇讲 PIN 本身、一篇讲「锁有三种」
     "diary-with-pin": "seo-pin",
     "journal-with-lock": "seo-lock",
+    # #2487（市场部 #2478 第 9–10 篇）：第 9 篇是宽词 private diary app（五个问题，PIN 只占第 1 问，和第 3 篇不撞）；
+    # 第 10 篇主词 diary app no account，但标题 / H1 只说 no sign-up（claims C26：底下有匿名 ID）
+    "private-diary-app": "seo-private",
+    "diary-app-no-account": "seo-noaccount",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
