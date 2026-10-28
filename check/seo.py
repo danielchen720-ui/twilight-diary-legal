@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""#2320 + #2341（+ #2454 第 5–6 篇 · #2487 第 9–10 篇）：SEO 文章挂站 + 免费渠道分账 ct。只读，本机没有 jekyll 也能跑（JS 那一格要 node）。
+"""#2320 + #2341（+ #2454 第 5–6 篇 · #2487 第 9–10 篇 · #2498 第 11–12 篇）：SEO 文章挂站 + 免费渠道分账 ct。只读，本机没有 jekyll 也能跑（JS 那一格要 node）。
 
     python3 check/seo.py      → 退出 0 = 全对；1 = 哪一条不对印出来
 
@@ -42,6 +42,9 @@ PAGES = {
     # 第 10 篇主词 diary app no account，但标题 / H1 只说 no sign-up（claims C26：底下有匿名 ID）
     "private-diary-app": "seo-private",
     "diary-app-no-account": "seo-noaccount",
+    # #2498（市场部 #2485 第 11–12 篇）：ai diary app（AI 该做什么、不该碰什么）· reflection journal app（一天的收尾）
+    "ai-diary-app": "seo-aiapp",
+    "reflection-journal-app": "seo-reflect",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
