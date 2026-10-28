@@ -50,6 +50,9 @@ PAGES = {
     "vent-journal-app": "seo-vent",
     "bedtime-journal-app": "seo-bedtime",
     "pen-pal-app": "seo-penpal",
+    # #2532（市场部 #2529 第 17–18 篇）：daily journal app（跳过一晚不提）· voice journal app（说出来、转成字）
+    "daily-journal-app": "seo-daily",
+    "voice-journal-app": "seo-voice",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
