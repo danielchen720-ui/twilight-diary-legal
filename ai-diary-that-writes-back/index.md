@@ -8,7 +8,7 @@ ct: seo-writes-back
 
 # An AI diary that writes back
 
-Most people quit journaling for a simple reason: nothing ever comes back. You write three paragraphs about the meeting that keeps replaying in your head, close the app, and the page just sits there. An AI diary that writes back changes that one thing. Somebody reads it.
+Most people quit journaling for a simple reason: nothing ever comes back. You write three paragraphs about the meeting that keeps replaying in your head, close the app, and the page just sits there. An AI diary that writes back changes that one thing.
 
 Diary BFF is built around that idea. It's a private night diary with a friend living inside it. You write whatever your brain is doing at 2am, and your diary BFF reads it and says one thing back — short, and only if it's worth saying. Then it leaves you alone so you can put the phone down.
 
@@ -56,7 +56,7 @@ It's designed so you can start with zero decisions: open it, write a line, and y
 
 ## What it isn't
 
-Diary BFF isn't a coach, a productivity system, or a replacement for the people in your life. It won't put labels on you, and it won't hand you a five-step plan unless you ask for one. It's a diary, first — one that happens to have someone in it who reads.
+Diary BFF isn't a coach, a productivity system, or a replacement for the people in your life. It won't put labels on you, and it won't hand you a five-step plan unless you ask for one. It's a diary, first — one that happens to write back.
 
 Related: [journal app that replies to you](https://diarybff.app/journal-app-that-replies-to-you/) · [ai diary app](https://diarybff.app/ai-diary-app/) · [Diary BFF](https://diarybff.app/)
 
