@@ -5,7 +5,7 @@ title: Privacy Policy — Diary BFF
 
 # Privacy Policy — Diary BFF
 
-_Last updated: 2026-10-18_
+_Last updated: 2026-10-27_
 
 Diary BFF ("the app", "we", "us") is a private journal that writes back. This
 policy explains what the app stores, where it goes, and what you can do about it.
@@ -19,9 +19,12 @@ This is plain language, not legal advice.
 - This version does not keep voice recordings. When you speak on the chat page,
   your words are turned into text on the phone and the audio is discarded; it is
   never uploaded.
-- The app shows **no ads**, and we do **not** sell your data or use it for
-  advertising or tracking. There is no third-party analytics or crash-reporting
-  SDK in the app.
+- The app shows **no ads**. We do **not** sell your data, give it to ad
+  networks, or track you across other apps or websites. If you installed the app
+  from one of our own ads on the App Store (Apple Ads), we learn which of our ad
+  campaigns that was, so we can tell which ads are worth paying for (see
+  "Third parties that process your content"). There is no third-party analytics
+  or crash-reporting SDK in the app.
 - Some features send the text of an entry to an AI provider. **Nothing is sent
   to an AI provider until you say so** — the app asks once, in plain words, and
   keeps working normally if you say no.
@@ -78,6 +81,15 @@ In our backend (**Supabase**, US East `us-east-1`):
 
 That list is meant to be complete. If it stops being complete, this page is wrong
 and we want to know.
+
+**Kept by RevenueCat** (our subscription provider, not in our backend), with your
+app-specific user ID: your subscription and purchase history, and — only if you
+installed the app from one of our Apple Ads ads — the record Apple gives about that
+ad: which of our ad campaigns, ad groups, keywords and ads led to the install, the
+country or region, and whether it was a new download or a redownload. It does not
+include your name, your advertising identifier (IDFA), or anything you wrote. We use
+it to count how many installs, trials and subscriptions each of our ad campaigns
+brings.
 
 **Kept only on your phone** (not in our backend): the list of entries you
 bookmarked, and, in the iOS Keychain, the hash of your PIN and a sign-in key that
@@ -148,6 +160,11 @@ have agreed:
   through it for a few minutes before they are encrypted, and are not kept there.
 - **RevenueCat** — subscription purchases and entitlement status. It receives an
   app-specific user ID and purchase events, not your journal.
+  If you found the app through an Apple Ads ad, RevenueCat also receives a token
+  from Apple that tells us which of our ad campaigns led to the install (Apple's
+  standard attribution; see "What we store"). It does not say who you are, it is
+  not shared with ad networks or data brokers, and it is never used to track you
+  across other apps or websites.
 - **Apple** — payments, and Sign in with Apple if you choose it. We never see
   your card details.
 - **Apple (WeatherKit)** — if you add a city, our server sends Apple the map coordinates of that city (the same for everyone in it, never your phone's location, and never who you are) to get its weather.
@@ -232,7 +249,9 @@ All of these can be revoked in iOS Settings.
 
 ## What we do not do
 
-- No advertising, no ad networks, no advertising identifiers.
+- No ads in the app, no ad networks, no advertising identifiers (IDFA). The only
+  advertising data is the Apple Ads record about our own ads described in
+  "What we store".
 - No selling or renting of personal data.
 - No cross-app or cross-site tracking.
 - No third-party analytics SDK, no crash-reporting SDK.
