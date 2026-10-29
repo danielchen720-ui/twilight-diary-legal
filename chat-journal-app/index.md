@@ -9,7 +9,7 @@ ct: seo-chat
 
 Most chat apps are for talking to other people. A chat journal app is for the other kind of conversation: the one you have with yourself at night, when the day is finally quiet enough to think.
 
-Diary BFF is that kind of app. It's a private chat with yourself. It listens, and it remembers.
+Diary BFF is that kind of app. It's a private chat with yourself.
 
 ## A diary first, with a chat inside it
 
