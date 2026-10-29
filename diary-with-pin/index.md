@@ -62,7 +62,7 @@ On Sundays, it writes you a letter about your week. Your writing, the chat and t
 
 If that's you, the PIN is the feature, not the friction.
 
-Related: [private diary with PIN lock](https://diarybff.app/private-diary-with-pin-lock/) · [journal with lock](https://diarybff.app/journal-with-lock/) · [Diary BFF](https://diarybff.app/)
+Related: [private diary with PIN lock](https://diarybff.app/private-diary-with-pin-lock/) · [journal with lock](https://diarybff.app/journal-with-lock/) · [diary with password](https://diarybff.app/diary-with-password/) · [Diary BFF](https://diarybff.app/)
 
 ## Getting started
 

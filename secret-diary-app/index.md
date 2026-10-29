@@ -49,7 +49,7 @@ A paper diary's key could go missing down the back of a drawer. A PIN can be for
 - People who live with others and want one place on the phone that's theirs to open.
 - Anyone who has stopped mid-sentence because of who might read it.
 
-Related: [journal with lock](https://diarybff.app/journal-with-lock/) · [diary app with no sign-up](https://diarybff.app/diary-app-no-account/) · [Diary BFF](https://diarybff.app/)
+Related: [journal with lock](https://diarybff.app/journal-with-lock/) · [diary app with no sign-up](https://diarybff.app/diary-app-no-account/) · [diary lock](https://diarybff.app/diary-lock/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

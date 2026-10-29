@@ -48,7 +48,7 @@ Why the wait? Because the person who taps Forgot PIN isn't always the owner. Ten
 - People who've tried a "locked" journal and found that the lock was really just their phone.
 - Anyone who wants a password they can actually forget without losing everything they wrote.
 
-Related: [diary with pin](https://diarybff.app/diary-with-pin/) · [journal with lock](https://diarybff.app/journal-with-lock/) · [Diary BFF](https://diarybff.app/)
+Related: [diary with pin](https://diarybff.app/diary-with-pin/) · [journal with lock](https://diarybff.app/journal-with-lock/) · [diary with password](https://diarybff.app/diary-with-password/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

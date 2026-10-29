@@ -70,6 +70,10 @@ PAGES = {
     # 和内链同一笔：23 / 20 / 24 / 18 四篇链到它俩，分开上就是死链
     "journal-prompts-app": "seo-prompts",
     "talk-to-yourself-app": "seo-talk",
+    # #2634：第 27–28 篇（市场部 #2627，内链表 #2633）：diary with password（为什么是短 PIN）· diary lock（按场景）
+    # 和内链同一笔：19 / 5 链 27，6 / 13 链 28，分开上就是死链
+    "diary-with-password": "seo-diarypw",
+    "diary-lock": "seo-diarylock",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
