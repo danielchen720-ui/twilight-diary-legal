@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A journal app that replies to you — then lets you go"
-description: "Diary BFF is a journal app that replies to you like a friend: a few sentences, only when you ask, and it remembers last week. Private, PIN-locked."
+description: "Diary BFF is a journal app that replies to you: a few sentences, only when you ask, and it remembers what you wrote, with the date. PIN-locked."
 ct: seo-replies
 ---
 
@@ -46,7 +46,7 @@ Replies happen in the moment. Once a week, there's something slower: your diary 
 
 Some things were left out on purpose:
 
-- **Nothing to keep up.** No badges, no check-ins, no "you missed a day." There's no streak to keep and nothing to break.
+- **Nothing to keep up.** No badges, no check-ins, no "you missed a day." Skip a night, and it won't bring it up.
 - **No interruptions.** It doesn't jump in while you write.
 - **No sales talk.** Your diary BFF doesn't bring up subscriptions in its replies.
 
@@ -56,8 +56,10 @@ A journal that replies only works if you're willing to write the real thing. Dia
 
 Notifications never show what you wrote. Your entries are not used to train AI. You can export your diary any time, and exported backups can be locked too.
 
+Related: [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [pen pal app](https://diarybff.app/pen-pal-app/) · [weekly letter journal](https://diarybff.app/weekly-letter-journal/) · [Diary BFF](https://diarybff.app/)
+
 ## Start with one line
 
 You don't need a prompt or a plan. Open the app tonight and write one line about whatever your head is doing. Then ask your diary BFF what it thinks.
 
-Writing stays free, and your first reply is free too. More replies and the full Sunday letter come with the full version, which starts with a free trial.
+Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.

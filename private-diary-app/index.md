@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Private diary app: five questions to ask before you write in one"
+title: "Private diary app: five questions to ask before you write"
 description: "What makes a private diary app private? Five questions to ask, and how Diary BFF answers them: its own PIN, quiet notifications, no AI training."
 ct: seo-private
 ---
@@ -54,6 +54,8 @@ Before you write in any private diary app, ask:
 - Does the privacy policy say your writing isn't used to train AI?
 - Can you export your entries whenever you like?
 - Is there a way to undo a delete — and a point where deleted means deleted?
+
+Related: [private diary with PIN lock](https://diarybff.app/private-diary-with-pin-lock/) · [diary app with no sign-up](https://diarybff.app/diary-app-no-account/) · [diary app for adults](https://diarybff.app/diary-app-for-adults/) · [export journal entries](https://diarybff.app/export-journal-entries/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A Rosebud alternative for night journaling: Diary BFF"
-description: "Looking for a Rosebud alternative? Diary BFF is a night diary that replies like a friend, writes you a Sunday letter, and opens with its own PIN."
+description: "Looking for a Rosebud alternative? Diary BFF stays quiet while you write, replies only when you ask, and keeps its own PIN apart from your phone's."
 ct: seo-rosebud
 # #2414：旧 /rosebud/（Q128 草稿）同题互抢 → 删掉那页，这里出一张即时跳转（GitHub Pages 发不了 301；理由见 check/seo.py ⑥）
 redirect_from: /rosebud/
@@ -65,7 +65,7 @@ A few related details:
 
 ### Nothing to keep up
 
-Diary BFF has no badges or check-ins, and there's no streak to keep and nothing to break. Writing four nights one week and none the next is not something the app will point out to you.
+Diary BFF has no badges or check-ins. Skip a night, and it won't bring it up. Writing four nights one week and none the next is not something the replies will point out to you.
 
 ## Side by side
 
@@ -79,13 +79,15 @@ Diary BFF has no badges or check-ins, and there's no streak to keep and nothing 
 
 Features change; check each app's current listing before you decide.
 
+Related: [Day One alternative](https://diarybff.app/day-one-alternative/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [Apple Journal alternative](https://diarybff.app/apple-journal-alternative/) · [Diary BFF](https://diarybff.app/)
+
 ## Which one should you pick?
 
 Pick **Rosebud** if you want a structured personal-growth tool with goals, habits, guided journals, and access on Android or the web.
 
 Pick **Diary BFF** if you mostly write at night, want something that feels like telling a friend rather than doing an exercise, and want a diary that stays closed even when your phone is open.
 
-Writing stays free, and your first reply is free too. More replies and the full Sunday letter come with the full version, which starts with a free trial.
+Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.
 
 
 <small>Rosebud details are from rosebud.app, help.rosebud.app, and Rosebud's App Store listing, checked October 2026. Rosebud is a trademark of its owner; Diary BFF is not affiliated with it.</small>
