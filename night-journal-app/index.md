@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "A night journal app for when your head won't stop"
+title: "A night journal app you can use in the dark"
 description: "Diary BFF is a night journal app: open it in the dark, write what's going round, and your diary BFF writes back a few sentences when you ask."
 ct: seo-night
 ---

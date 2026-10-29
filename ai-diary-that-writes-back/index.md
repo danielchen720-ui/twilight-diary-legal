@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AI diary that writes back, for nights your head won't stop"
+title: "AI diary that writes back, right under your words"
 description: "Diary BFF is an AI diary that writes back. Write what's in your head at 2am; your diary BFF reads it and says one short thing back."
 ct: seo-writes-back
 ---
