@@ -55,7 +55,7 @@ Before you write in any private diary app, ask:
 - Can you export your entries whenever you like?
 - Is there a way to undo a delete — and a point where deleted means deleted?
 
-Related: [private diary with PIN lock](https://diarybff.app/private-diary-with-pin-lock/) · [diary app with no sign-up](https://diarybff.app/diary-app-no-account/) · [diary app for adults](https://diarybff.app/diary-app-for-adults/) · [Diary BFF](https://diarybff.app/)
+Related: [private diary with PIN lock](https://diarybff.app/private-diary-with-pin-lock/) · [diary app with no sign-up](https://diarybff.app/diary-app-no-account/) · [diary app for adults](https://diarybff.app/diary-app-for-adults/) · [export journal entries](https://diarybff.app/export-journal-entries/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

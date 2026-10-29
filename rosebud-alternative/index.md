@@ -79,7 +79,7 @@ Diary BFF has no badges or check-ins. Skip a night, and it won't bring it up. Wr
 
 Features change; check each app's current listing before you decide.
 
-Related: [Day One alternative](https://diarybff.app/day-one-alternative/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [Diary BFF](https://diarybff.app/)
+Related: [Day One alternative](https://diarybff.app/day-one-alternative/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [Apple Journal alternative](https://diarybff.app/apple-journal-alternative/) · [Diary BFF](https://diarybff.app/)
 
 ## Which one should you pick?
 

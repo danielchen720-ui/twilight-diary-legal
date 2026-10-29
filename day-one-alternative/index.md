@@ -69,7 +69,7 @@ A few related details:
 
 Features change; check each app's current listing before you decide.
 
-Related: [Rosebud alternative](https://diarybff.app/rosebud-alternative/) · [private diary app](https://diarybff.app/private-diary-app/) · [Diary BFF](https://diarybff.app/)
+Related: [Rosebud alternative](https://diarybff.app/rosebud-alternative/) · [private diary app](https://diarybff.app/private-diary-app/) · [Apple Journal alternative](https://diarybff.app/apple-journal-alternative/) · [Diary BFF](https://diarybff.app/)
 
 ## Which one should you pick?
 
