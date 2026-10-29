@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Secret diary app: the little lock-and-key diary, on your phone"
+title: "Secret diary app: the lock-and-key diary, on your phone"
 description: "Diary BFF is a secret diary app with a lock of its own: a PIN separate from your phone's, lock-screen notifications that show nothing you wrote."
 ct: seo-secret
 ---

@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "A weekly letter journal: write at night, get a letter on Sunday"
+title: "Weekly letter journal: write at night, a letter on Sunday"
 description: "Diary BFF is a weekly letter journal: you write on the nights you want to, and on Sundays your diary BFF writes you a letter about your week."
 ct: seo-letter
 ---

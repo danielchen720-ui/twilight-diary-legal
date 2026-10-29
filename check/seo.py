@@ -4,7 +4,7 @@
     python3 check/seo.py      → 退出 0 = 全对；1 = 哪一条不对印出来
 
 核的是源，不是 build 出来的页（本机没有 jekyll）：
-① 每篇各在 <篇名>/index.md，layout: article，ct = seo-<短篇名>（表在 PAGES；≤ 30 字符），title / description 都有、description ≤ 155 字符
+① 每篇各在 <篇名>/index.md，layout: article，ct = seo-<短篇名>（表在 PAGES；≤ 30 字符），title / description 都有、title ≤ 60 字符（#2612：layout 不加站名后缀，超了搜索结果截句尾）、description ≤ 155 字符
 ② _layouts/article.html：每个 App Store 链接 ct 只读 page.ct（不给默认值）、带 pt；canonical 指本页；不带 noindex
 ③ 正文里没有自己写死的 App Store 链接（按钮只在 layout 里一处）、没有孤零零的 he / him / his（老板 10-08 he/she 规矩）、
    没有比 App 走得远的那几句（「Two to four sentences」= 提示词定的是 1–2 句最多 3；「neutral count … nothing else」=
@@ -73,6 +73,8 @@ STALE = (
     (re.compile(r"neutral count[^.]*\b(nothing else|that's all|that's it)\b", re.I), "「neutral count … nothing else」—— 日记本上还有 `{n} nights in a row.`"),
     (re.compile(r"\bno streaks\b", re.I), "`No streaks` —— App 那边 paywallNoStreakClaim 不许这么扩写；商店原句是 no streak to keep and nothing to break"),
     (re.compile(r"\bforever\b", re.I), "forever —— 10-03 老板定对外不说"),
+    # #2612（市场部 #2610 查到 pen-pal-app 的 title）：回话有额度（免费档每天几条、付费档有 fair-use 闸），「每次都回」不成立
+    (re.compile(r"\bwrites? back,? every time\b", re.I), "「writes back every time」—— 回话有额度（CLAUDE.md §1 免费档 / 过闸），不是每次都回"),
 )
 LONE_HE = re.compile(r"\b(he|him|his)\b(?!\s*/\s*(she|her))", re.I)
 
@@ -108,15 +110,19 @@ def check_pages(out):
             out.append(f"{p}：ct 应是 {want_ct}，是 {ct!r}")
         if not CT_RE.match(ct):
             out.append(f"{p}：ct {ct!r} 不是 [a-z0-9-]、≤30 字符")
-        if not fm.get("title"):
+        t = fm.get("title", "")
+        if not t:
             out.append(f"{p}：没有 title")
+        elif len(t) > 60:
+            out.append(f"{p}：title 超 60 字符（{len(t)}）")
         d = fm.get("description", "")
         if not d or len(d) > 155:
             out.append(f"{p}：description 空或超 155 字符（{len(d)}）")
         if "apps.apple.com" in body:
             out.append(f"{p}：正文里自己写了 App Store 链接（按钮只许在 layout 里）")
         for rx, why in STALE:
-            if rx.search(body):
+            # title / description 也是对外的话（搜索结果里那一句），一起扫
+            if rx.search(body) or rx.search(t) or rx.search(d):
                 out.append(f"{p}：{why}")
         m = LONE_HE.search(body)
         if m:

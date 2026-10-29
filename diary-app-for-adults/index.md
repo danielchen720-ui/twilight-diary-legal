@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "A diary app for adults: no stickers, no badges, a lock of its own"
+title: "Diary app for adults: no badges, and a lock of its own"
 description: "Diary BFF is a diary app for adults: one plain page for tonight, its own PIN, and short replies when you ask. No badges, no confetti, no lists of advice."
 ct: seo-adults
 ---

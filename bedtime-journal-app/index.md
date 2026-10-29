@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "A bedtime journal app: write it down before the lights go out"
+title: "Bedtime journal app: write it down before the lights go out"
 description: "Diary BFF is a bedtime journal app: one page for tonight, nothing to set up, and a few sentences back when you ask. Then put the phone down."
 ct: seo-bedtime
 ---

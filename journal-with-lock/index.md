@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Journal with lock: three kinds of lock, and the one that holds"
+title: "Journal with lock: three kinds, and the one that holds"
 description: "Looking for a journal with a lock? Phone locks and app hiding open with your passcode. Diary BFF uses its own PIN, separate from your phone."
 ct: seo-lock
 ---

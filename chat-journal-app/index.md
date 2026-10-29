@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "A chat journal app: a private chat with yourself that writes back"
+title: "Chat journal app: a private chat with yourself"
 description: "Diary BFF is a chat journal app: write or talk at night, and your diary BFF replies in a few sentences. Locked with its own PIN."
 ct: seo-chat
 ---

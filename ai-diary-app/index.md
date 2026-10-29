@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "AI diary app: what the AI should do, and what it should leave alone"
+title: "AI diary app: what the AI should do, and what it shouldn't"
 description: "An AI diary app should be a diary first. How Diary BFF's AI works: quiet while you write, a few sentences when you ask, and an off switch in Settings."
 ct: seo-aiapp
 ---

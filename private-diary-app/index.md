@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Private diary app: five questions to ask before you write in one"
+title: "Private diary app: five questions to ask before you write"
 description: "What makes a private diary app private? Five questions to ask, and how Diary BFF answers them: its own PIN, quiet notifications, no AI training."
 ct: seo-private
 ---
