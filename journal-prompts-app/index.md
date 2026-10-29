@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Journal prompts app: a few questions for when you're stuck"
-description: "Diary BFF is a journal prompts app for nights the page stays blank: three small question sets, then your own words. Locked with its own PIN."
+description: "Diary BFF is a journal prompts app for nights the page stays blank: a few small question sets, then your own words, behind a PIN of its own."
 ct: seo-prompts
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A pen pal app that writes back, and keeps it private"
-description: "Diary BFF is a diary that writes back: a pen pal for the end of the day, with a letter about your week on Sundays. The replies are AI, not a person."
+description: "Diary BFF works like a pen pal app: write at night, get a few lines back when you ask, and a letter on Sundays. The replies are AI, not a person."
 ct: seo-penpal
 ---
 

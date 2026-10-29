@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A Rosebud alternative for night journaling: Diary BFF"
-description: "Looking for a Rosebud alternative? Diary BFF is a night diary that replies like a friend, writes you a Sunday letter, and opens with its own PIN."
+description: "Looking for a Rosebud alternative? Diary BFF stays quiet while you write, replies only when you ask, and keeps its own PIN apart from your phone's."
 ct: seo-rosebud
 # #2414：旧 /rosebud/（Q128 草稿）同题互抢 → 删掉那页，这里出一张即时跳转（GitHub Pages 发不了 301；理由见 check/seo.py ⑥）
 redirect_from: /rosebud/

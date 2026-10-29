@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "Journal app with password: what it's like to live with one"
-description: "Diary BFF is a journal app with password protection of its own: a 4-digit PIN, separate from your phone's. How to set it, change it, and if you forget."
+description: "Diary BFF is a journal app with password protection of its own, apart from your phone's. What it's like day to day: setting it, changing it, forgetting it."
 ct: seo-password
 ---
 

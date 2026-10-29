@@ -1,7 +1,7 @@
 ---
 layout: article
 title: "A night journal app you can use in the dark"
-description: "Diary BFF is a night journal app: open it in the dark, write what's going round, and your diary BFF writes back a few sentences when you ask."
+description: "Diary BFF is a night journal app made for the dark: write what's going round, and ask for a few sentences back. The page has its own PIN."
 ct: seo-night
 ---
 
