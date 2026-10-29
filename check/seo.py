@@ -66,6 +66,10 @@ PAGES = {
     # 和内链表同一笔上：20 / 21 / 14 / 11 四篇链到它俩，分开上就是死链
     "overthinking-journal": "seo-overthinking",
     "chat-journal-app": "seo-chat",
+    # #2614：第 25–26 篇（市场部 #2608，内链表 #2613）：journal prompts app · talk to yourself app
+    # 和内链同一笔：23 / 20 / 24 / 18 四篇链到它俩，分开上就是死链
+    "journal-prompts-app": "seo-prompts",
+    "talk-to-yourself-app": "seo-talk",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (

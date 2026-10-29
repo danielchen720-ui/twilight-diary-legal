@@ -43,7 +43,7 @@ Diary BFF isn't a coach and it doesn't put labels on you. It's a diary first, on
 
 Skip a night, and it won't bring it up.
 
-Related: [3am journal app](https://diarybff.app/3am-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [Diary BFF](https://diarybff.app/)
+Related: [3am journal app](https://diarybff.app/3am-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [journal prompts app](https://diarybff.app/journal-prompts-app/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

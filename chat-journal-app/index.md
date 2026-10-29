@@ -43,7 +43,7 @@ Your diary BFF remembers what you wrote, with the date. So when something comes 
 - People who tried a regular journal and missed having something answer.
 - Anyone who wants a chat where the only other voice is their own diary.
 
-Related: [weekly letter journal](https://diarybff.app/weekly-letter-journal/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [Diary BFF](https://diarybff.app/)
+Related: [weekly letter journal](https://diarybff.app/weekly-letter-journal/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [talk to yourself app](https://diarybff.app/talk-to-yourself-app/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

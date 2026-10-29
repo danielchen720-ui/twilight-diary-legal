@@ -43,7 +43,7 @@ Skip a night, and it won't bring it up.
 - People who'd rather write than wake someone up.
 - Anyone who wants the thought out of their head and onto a page, so it can wait until morning.
 
-Related: [night journal app](https://diarybff.app/night-journal-app/) · [overthinking journal](https://diarybff.app/overthinking-journal/) · [Diary BFF](https://diarybff.app/)
+Related: [night journal app](https://diarybff.app/night-journal-app/) · [overthinking journal](https://diarybff.app/overthinking-journal/) · [journal prompts app](https://diarybff.app/journal-prompts-app/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

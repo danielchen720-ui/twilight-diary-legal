@@ -42,7 +42,7 @@ Talking out loud is personal, and so is what it turns into. Diary BFF opens with
 - People who journal in bed, in the dark, with one hand.
 - Anyone who wants to say something tonight and read it back next week.
 
-Related: [daily journal app](https://diarybff.app/daily-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [Diary BFF](https://diarybff.app/)
+Related: [daily journal app](https://diarybff.app/daily-journal-app/) · [vent journal app](https://diarybff.app/vent-journal-app/) · [talk to yourself app](https://diarybff.app/talk-to-yourself-app/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 
