@@ -51,7 +51,7 @@ The diary itself has the same care: its own PIN, separate from your phone's pass
 - Does it tell you where your entries go when you ask the AI?
 - Is there a switch to turn the AI off?
 
-Related: [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [reflection journal app](https://diarybff.app/reflection-journal-app/) · [chat journal app](https://diarybff.app/chat-journal-app/) · [Diary BFF](https://diarybff.app/)
+Related: [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [reflection journal app](https://diarybff.app/reflection-journal-app/) · [chat journal app](https://diarybff.app/chat-journal-app/) · [journal app with optional ai](https://diarybff.app/journal-app-with-optional-ai/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

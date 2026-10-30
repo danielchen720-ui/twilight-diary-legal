@@ -77,6 +77,8 @@ PAGES = {
     # #2673 第 29 / 32 篇（市场部 #2664）：29 链 32、day-one / rosebud 链 29、private-diary-app 链 32 —— 同一笔上，分开上就是死链
     "apple-journal-alternative": "seo-applejournal",
     "export-journal-entries": "seo-export",
+    # #2720 第 30 篇（市场部 #2675 解冻）：和第 3 篇 ai-diary-app 互链，同一笔上
+    "journal-app-with-optional-ai": "seo-optional-ai",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (
