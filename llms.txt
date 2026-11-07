@@ -1,0 +1,55 @@
+# Diary BFF
+
+> Diary BFF is a private iPhone diary that writes back when you ask. You write; when you tap Ask, your diary BFF answers in a few sentences under your entry and, when it brings up an earlier night, adds the date. The diary has its own PIN, separate from the phone's passcode, and entries are not used to train AI.
+
+Published by Diary BFF. Author: Daniel Chen, founder of Diary BFF. App Store: https://apps.apple.com/app/id6811528172
+
+## Articles
+
+Each article also has a plain Markdown copy at https://diarybff.app/<slug>.md
+
+- [A 3am journal app for when your mind won't stop](https://diarybff.app/3am-journal-app/): Diary BFF is a 3am journal app: open it in the dark, write what's going around in your head, and ask for a few sentences back. Then put the phone down.
+- [AI diary app: what the AI should do, and what it shouldn't](https://diarybff.app/ai-diary-app/): An AI diary app should be a diary first. How Diary BFF's AI works: quiet while you write, a few sentences when you ask, and an off switch in Settings.
+- [AI diary that writes back, right under your words](https://diarybff.app/ai-diary-that-writes-back/): Diary BFF is an AI diary that writes back. Write what's in your head at 2am; your diary BFF reads it and says one short thing back.
+- [Apple Journal alternative: a diary with a lock of its own](https://diarybff.app/apple-journal-alternative/): Looking for an Apple Journal alternative? Diary BFF opens with its own PIN, apart from your phone's, and can bring your Apple Journal entries with it.
+- [Bedtime journal app: write it down before the lights go out](https://diarybff.app/bedtime-journal-app/): Diary BFF is a bedtime journal app: a page for tonight, nothing to set up, and a few sentences back when you ask, before the lights go out.
+- [Chat journal app: a private chat with yourself](https://diarybff.app/chat-journal-app/): Diary BFF is a chat journal app: write or talk at night, and your diary BFF replies in a few sentences. Locked with its own PIN.
+- [A daily journal app that doesn't make every day a test](https://diarybff.app/daily-journal-app/): Diary BFF is a daily journal app for the end of the day: one page, nothing to set up, a few lines back when you ask. Skip a night; it won't bring it up.
+- [A Day One alternative for night writing: Diary BFF](https://diarybff.app/day-one-alternative/): Looking for a Day One alternative? Diary BFF is a night diary that replies when you ask, writes you a Sunday letter, and opens with its own PIN.
+- [Diary app for adults: no badges, and a lock of its own](https://diarybff.app/diary-app-for-adults/): Diary BFF is a diary app for adults: one plain page for tonight, its own PIN, and short replies when you ask. No badges, no confetti, no lists of advice.
+- [A diary app with no sign-up: open it, set a PIN, write](https://diarybff.app/diary-app-no-account/): Looking for a diary app with no account to make? Diary BFF has no sign-up: open it, set a PIN of its own, and write tonight.
+- [Diary lock: for the moments your phone isn't only yours](https://diarybff.app/diary-lock/): A diary lock matters most when your phone is in someone else's hands. Diary BFF has its own PIN, apart from your phone's. Nothing shows on the lock screen.
+- [Diary with password: why a short PIN, and why it holds](https://diarybff.app/diary-with-password/): Looking for a diary with password protection? Diary BFF locks with its own 4-digit PIN, apart from your phone's. Why a short code, and what makes it hold.
+- [Diary with PIN: a diary app that opens with its own code](https://diarybff.app/diary-with-pin/): Diary BFF is a diary with a PIN of its own, separate from your phone's passcode. How the PIN works, how to pick one, and what happens if you forget it.
+- [End of year journal prompts, with a reply under each](https://diarybff.app/end-of-year-journal-prompts/): Ten end of year journal prompts for the last nights of December, each with an example of how your diary BFF writes back when you tap Ask.
+- [Export journal entries: keep a copy before you need it](https://diarybff.app/export-journal-entries/): How to export journal entries from Diary BFF: what goes in the file, how photos travel, and how to lock the backup with a password of its own.
+- [A journal app that replies to you — then lets you go](https://diarybff.app/journal-app-that-replies-to-you/): Diary BFF is a journal app that replies to you: a few sentences, only when you ask, and it remembers what you wrote, with the date. PIN-locked.
+- [Journal app with password: what it's like to live with one](https://diarybff.app/journal-app-with-password/): Diary BFF is a journal app with password protection of its own: a 4-digit PIN, apart from your phone's. What it's like to set it, change it, forget it.
+- [Journal prompts app: a few questions for when you're stuck](https://diarybff.app/journal-prompts-app/): Diary BFF is a journal prompts app for nights the page stays blank: a few small question sets, then your own words, behind a PIN of its own.
+- [Journal with lock: three kinds, and the one that holds](https://diarybff.app/journal-with-lock/): Looking for a journal with a lock? Phone locks and app hiding open with your passcode. Diary BFF uses its own PIN, separate from your phone.
+- [A night journal app you can use in the dark](https://diarybff.app/night-journal-app/): Diary BFF is a night journal app made for the dark: write what's going round, and ask for a few sentences back. The page has its own PIN.
+- [An overthinking journal for the nights your head keeps going](https://diarybff.app/overthinking-journal/): Diary BFF is an overthinking journal: put the loop on the page at night, and your diary BFF says one short thing back, only when you ask.
+- [A pen pal app that writes back, and keeps it private](https://diarybff.app/pen-pal-app/): Diary BFF works like a pen pal app: write at night, get a few lines back when you ask, and a letter on Sundays. The replies are AI, not a person.
+- [Diary BFF press kit: facts, icon and contact](https://diarybff.app/press/): Press kit for Diary BFF, a private iPhone diary that writes back when you ask: one-line description, key facts, icon, screenshots and press contact.
+- [Private diary app: five questions to ask before you write](https://diarybff.app/private-diary-app/): What makes a private diary app private? Five questions to ask, and how Diary BFF answers them: its own PIN, quiet notifications, no AI training.
+- [Private diary with PIN lock: the one your phone can't open](https://diarybff.app/private-diary-with-pin-lock/): Diary BFF is a private diary with a PIN lock separate from your phone's passcode. Someone can hold your unlocked phone and still not open it.
+- [A reflection journal app for the end of the day](https://diarybff.app/reflection-journal-app/): Diary BFF is a reflection journal app for the end of the day: write what's going round, ask for a few sentences back, and get a letter about your week.
+- [Rosebud alternatives in 2026: 7 journal apps compared](https://diarybff.app/rosebud-alternative/): Rosebud alternatives compared: plans, what you get without paying, how the AI replies, locks and export, from each app's own pages. Published by Diary BFF.
+- [Secret diary app: the lock-and-key diary, on your phone](https://diarybff.app/secret-diary-app/): Diary BFF is a secret diary app with a lock of its own: a PIN separate from your phone's, lock-screen notifications that show nothing you wrote.
+- [Talk to yourself app: think out loud, on a page with a lock](https://diarybff.app/talk-to-yourself-app/): Diary BFF is a talk to yourself app: say or write what's in your head at night, and read it back as one page. It can reply when you ask. PIN-locked.
+- [A vent journal app: say it all, then put the phone down](https://diarybff.app/vent-journal-app/): Diary BFF is a vent journal app for the end of the day: write it out unfiltered, and if you want, get a few sentences back. No advice unless you ask.
+- [A voice journal app: say it out loud, read it back as text](https://diarybff.app/voice-journal-app/): Diary BFF is a voice journal app: hold to record, and what you say turns into text on tonight's page. Ask, and a few sentences come back. With its own PIN.
+- [Weekly letter journal: write at night, a letter on Sunday](https://diarybff.app/weekly-letter-journal/): Diary BFF is a weekly letter journal: you write on the nights you want to, and on Sundays your diary BFF writes you a letter about your week.
+
+## About the app
+
+- [Consumer Health Data Privacy Policy — Diary BFF](https://diarybff.app/health-data/)
+- [Help — Diary BFF](https://diarybff.app/help/): Short answers about your PIN, a new phone, export and import, deleting your account, what's free, and how your diary BFF writes back.
+- [Delete your account — Diary BFF help](https://diarybff.app/help/delete-account/): How to delete your Diary BFF account and everything in it, what gets erased, and why you also need to cancel your subscription separately.
+- [Export and import your diary — Diary BFF help](https://diarybff.app/help/export-and-import/): How to export your Diary BFF diary to one file, protect it with a password, import it again, and move in from Day One or Apple Journal.
+- [What's free and what's in the full version — Diary BFF help](https://diarybff.app/help/free-and-paid/): Writing in Diary BFF stays free. Here's what the full version adds, how a free trial works, and how to cancel or restore a subscription.
+- [Forgot your PIN, or got a new phone — Diary BFF help](https://diarybff.app/help/pin-and-new-phone/): How to reset your Diary BFF PIN, bring your diary to a new phone, and open it again after reinstalling.
+- [How your diary BFF writes back — Diary BFF help](https://diarybff.app/help/replies/): When your diary BFF replies, what gets sent and where, how it remembers earlier nights with the date, and how to turn replies off.
+- [Privacy Policy — Diary BFF](https://diarybff.app/privacy/)
+- [Support — Diary BFF](https://diarybff.app/support/): Help with your PIN, a new phone, export, deleting your account, and subscriptions.
+- [Terms of Use — Diary BFF](https://diarybff.app/terms/)
