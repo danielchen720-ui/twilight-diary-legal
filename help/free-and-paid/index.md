@@ -28,6 +28,13 @@ More replies and the full Sunday letter. Ask, and your diary BFF answers what yo
 <!-- paywall.ctaTrial「Try {n} days free」· paywall.timelineToday · paywall.timelineRemind（{n}/{d} 来自商店，不写死） -->
 If a free trial is offered, the button says how many days it is, and the screen shows the timeline: nothing is due on the first day, and you can turn on a reminder before it renews.
 
+<!-- #2957 巡场 11-06 21:0x：照 main paywall.timelineToday / timelineRemind / timelineStarts 原话（提醒 = 结束前 48 小时，只有开了通知才有）。14 / 12 是现行商店试用天数，试用改了这三行要跟着改 -->
+Right now the trial is 14 days, in three steps:
+
+- **Today:** the full version opens. Nothing is due.
+- **Day 12:** we remind you before it renews, if notifications are on.
+- **Day 14:** your plan starts. Cancel in App Store settings at least 24 hours before and you pay nothing.
+
 ## Cancel
 
 <!-- sub.trialHowToCancel · /support/ 已审句（24 小时是 Apple 的规则） -->

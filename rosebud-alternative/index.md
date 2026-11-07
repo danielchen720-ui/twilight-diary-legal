@@ -11,6 +11,12 @@ redirect_from: /rosebud/
 Rosebud no longer has a free plan: its help center says the free plan was retired on September 30, 2026 ([Changes to the Free Plan](https://help.rosebud.app/account/changes-to-the-free-plan)).
 If that's what brought you here: in Diary BFF, writing and export never cost anything. Your diary BFF's replies and the Sunday letter come with the full version, and you can try it first.
 
+Trying it takes 14 days, in the same three steps the app shows:
+
+- **Today:** the full version opens. Nothing is due.
+- **Day 12:** we remind you before it renews, if notifications are on.
+- **Day 14:** your plan starts. Cancel in App Store settings at least 24 hours before and you pay nothing.
+
 *Published by Diary BFF. Written by Daniel Chen, founder of Diary BFF. Facts checked on November 4, 2026, from each app's own website, help center and US App Store page. We make one of the apps below, so read our section with that in mind.*
 
 ## TL;DR
