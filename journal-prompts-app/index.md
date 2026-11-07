@@ -45,7 +45,7 @@ The replies aren't written by a person. Your diary BFF is an AI that lives in yo
 - People who tried big prompt libraries and spent more time picking a question than writing.
 - Anyone who wants one good question, then quiet.
 
-Related: [overthinking journal](https://diarybff.app/overthinking-journal/) · [3am journal app](https://diarybff.app/3am-journal-app/) · [Diary BFF](https://diarybff.app/)
+Related: [overthinking journal](https://diarybff.app/overthinking-journal/) · [3am journal app](https://diarybff.app/3am-journal-app/) · [end of year journal prompts](https://diarybff.app/end-of-year-journal-prompts/) · [Diary BFF](https://diarybff.app/)
 
 ## Try it tonight
 

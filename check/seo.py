@@ -33,7 +33,8 @@ PAGES = {
     "ai-diary-that-writes-back": "seo-writes-back",
     "journal-app-that-replies-to-you": "seo-replies",
     "private-diary-with-pin-lock": "seo-pin-lock",
-    "rosebud-alternative": "seo-rosebud",
+    # #2940 ②（市场部 #2948 / #2950 / #2952）：Rosebud 篇按 #2720 对照结构原地重写，按钮 ct 改 alt-rosebud（替代品篇单独一类）
+    "rosebud-alternative": "alt-rosebud",
     # #2454（市场部 #2451 第 5–6 篇）：和第 4 篇分开讲 —— 第 4 篇讲「为什么锁要和手机分开」，
     # 这两篇一篇讲 PIN 本身、一篇讲「锁有三种」
     "diary-with-pin": "seo-pin",
@@ -77,6 +78,9 @@ PAGES = {
     # #2673 第 29 / 32 篇（市场部 #2664）：29 链 32、day-one / rosebud 链 29、private-diary-app 链 32 —— 同一笔上，分开上就是死链
     "apple-journal-alternative": "seo-applejournal",
     "export-journal-entries": "seo-export",
+    # #2940 ②：#2884 提示语篇第一篇（end of year journal prompts）· #2882 /press（按钮 ct=press）
+    "end-of-year-journal-prompts": "seo-endofyear",
+    "press": "press",
 }
 CT_RE = re.compile(r"^[a-z0-9-]{1,30}$")
 STALE = (

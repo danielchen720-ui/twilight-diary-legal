@@ -1,93 +1,143 @@
 ---
 layout: article
-title: "A Rosebud alternative for night journaling: Diary BFF"
-description: "Looking for a Rosebud alternative? Diary BFF stays quiet while you write, replies only when you ask, and keeps its own PIN apart from your phone's."
-ct: seo-rosebud
-# #2414：旧 /rosebud/（Q128 草稿）同题互抢 → 删掉那页，这里出一张即时跳转（GitHub Pages 发不了 301；理由见 check/seo.py ⑥）
+title: "Rosebud alternatives in 2026: 7 journal apps compared"
+description: "Rosebud alternatives compared: plans, what you get without paying, how the AI replies, locks and export, from each app's own pages. Published by Diary BFF."
+ct: alt-rosebud
 redirect_from: /rosebud/
 ---
 
+# Rosebud alternatives in 2026: 7 journal apps compared
 
-# A Rosebud alternative for the 2am kind of journaling
+Rosebud no longer has a free plan: its help center says the free plan was retired on September 30, 2026 ([Changes to the Free Plan](https://help.rosebud.app/account/changes-to-the-free-plan)).
+If that's what brought you here: in Diary BFF, writing and export never cost anything. Your diary BFF's replies and the Sunday letter come with the full version, and you can try it first.
 
-If you're searching for a Rosebud alternative, you probably already like the idea of an AI journal — writing something down and getting a thoughtful response instead of silence. The question is whether Rosebud's shape fits the way you actually write.
+*Published by Diary BFF. Written by Daniel Chen, founder of Diary BFF. Facts checked on November 4, 2026, from each app's own website, help center and US App Store page. We make one of the apps below, so read our section with that in mind.*
 
-This page lays out what each app is built for, using what both apps say about themselves, so you can pick the one that fits. Both are good at different things.
+## TL;DR
 
-## What Rosebud is built for
+- **Want an AI that waits until you ask, and a lock separate from your phone?** Diary BFF.
+- **Want guided programs and a lot of prompts?** Reflection.
+- **Want many kinds of AI analysis on one entry?** Mindsera.
+- **Want a reply after every entry, in the voice of a chosen thinker?** Life Note.
+- **Want the most mature journal, with AI as an opt-in extra?** Day One.
+- **Want to write on almost any device?** Journey.
+- **Want a morning-and-evening routine with AI as an option?** Stoic.
 
-Rosebud describes itself as an AI journal for personal growth. Based on its own website and App Store listing, it includes:
+## Why people look for a Rosebud alternative
 
-- AI feedback and follow-up questions on your entries
-- Memory of past entries, so it can connect things over time
-- Voice journaling
-- Weekly reports on your progress
-- Goal setting and habit building
-- Guided and custom journals
-- Apps on iPhone and Android, plus a web version
-- An optional app lock with Face ID, Touch ID, or a PIN
+Three facts from Rosebud's own pages tend to start the search:
 
-If you want a structured tool that helps you set goals, track habits, and work through guided prompts, Rosebud is designed for exactly that.
+- **The plan changed.** Rosebud's help center says: "Effective September 30, 2026, the Rosebud free plan will be retired." (Its homepage still says it is free to use, so check the app before you decide.)
+- **The price.** Rosebud's homepage lists Bloom at $12.99 a month, or $107.99 a year.
+- **The AI is part of the writing.** Rosebud describes "real-time guidance for text and voice entries", and a reflection when you finish an entry. Some people want that. Others want to write first and decide afterwards.
 
-## What Diary BFF is built for
+If none of these bother you, Rosebud may still be the right app. The section near the end says where it is still the strongest.
 
-Diary BFF is narrower on purpose. It's a private night diary for the person lying in bed whose head won't stop — the replayed conversation, the unanswered email, the thing someone said in 2016.
+## The seven apps
 
-Instead of a growth toolkit, it has one idea: there's a friend living in your diary who reads what you wrote and says one thing back.
+### 1. Diary BFF
 
-Here's where it's different.
+A private iPhone diary that writes back when you ask. It stays quiet while you write. Tap **Ask**, and your diary BFF answers in a few sentences, right under your words: at most one question, no lists, no advice unless you ask for it. When a reply brings up an earlier night, it adds the date.
 
-### It replies like a friend, not a coach
+- **Lock:** its own PIN, separate from your phone's passcode, so an unlocked phone doesn't open the diary. There is no Face ID unlock, by design.
+- **Your writing:** not used to train AI. The replies aren't written by a person.
+- **Every Sunday:** your diary BFF writes you a letter about your week.
+- **Moving:** you can export your diary any time, every entry with your writing and the replies. You can bring your old entries along from Day One or Apple Journal (one photo per entry comes over).
+- **Without paying:** writing and export. Replies and the Sunday letter come with the full version, and you can try it first; the current price is on the App Store page.
+- **Not offered:** Android, a web version, guided programs, goals or habit tracking.
 
-Your diary BFF stays quiet while you write. When you ask, it answers in a few sentences — at most one question, no lists, no advice unless you ask for it. It doesn't repeat back what you just said, and when it brings up something from an earlier night, it tells you which night.
+### 2. Reflection
 
-There are no goals to set and no habits to track. That's a deliberate choice: at 2am, most people don't want a plan. They want to say the thing to someone and put the phone down.
+An AI journal from the founders of Holstee. "Reflection's AI Coach replies right inside your entry", and you can "Turn AI off entirely, or exclude any entry from it" (App Store). It has more than 100 guided journals and programs.
 
-### Everything lives on one page
+- **Lock:** Face ID or a PIN, on the paid plan.
+- **Your writing:** Reflection says entries are "never used to train AI models", on every plan (pricing page).
+- **Platforms:** iPhone, iPad, Mac, web and Android.
 
-What you write, what you say in the chat, and what your diary BFF says back all flow into the same entry for that night. When you scroll back a month later, you see the whole night in one place — not an entry here and a conversation somewhere else.
+### 3. Mindsera
 
-### A letter every Sunday
+An AI journal built around many kinds of analysis: "Minds" such as Alternative Perspectives and Thinking Traps that comment on passages, plus emotion analysis and a personality snapshot (App Store).
 
-Rosebud offers weekly reports. Diary BFF writes you a letter. Once a week, your diary BFF reads back over your week and writes about it the way a friend who'd been listening might — the thing you kept circling, the night that went better than expected. The full Sunday letter is part of the paid version.
+- **Lock:** a passcode, on the plan you don't pay for too.
+- **Your writing:** "not used to train or improve AI models" (privacy policy).
+- **Export:** Markdown, "only available on the desktop version" (help center).
 
-### PIN only, separate from your phone
+### 4. Life Note
 
-Both apps can lock. The difference is in the design.
+Every entry gets a reply from a "mentor inspired by a thinker like Carl Jung, Marcus Aurelius or Steve Jobs", and mentors "remember your past entries" (App Store).
 
-Diary BFF opens with its own PIN, separate from your phone's passcode, and it doesn't offer Face ID or Touch ID unlock — by design. The idea is that someone can be holding your unlocked phone and still not open your diary. If a partner, a parent, or a roommate knows your phone passcode, your diary is still yours.
+- **Lock:** Face ID or Touch ID; the FAQ also mentions a PIN.
+- **Your writing:** "never used to train AI models" (privacy policy).
+- **Without paying:** "10 journal entries with a mentor response in the first week, then 3 per week" (App Store).
 
-A few related details:
+### 5. Day One
 
-- Notifications never show what you wrote, because they can appear on a lock screen.
-- Your entries are not used to train AI.
-- You can export your diary any time, and exported backups can be locked too.
+A long-running journal for iPhone, iPad, Mac and Apple Watch, with Android, web and Windows apps too. AI features are on the Gold plan only: "AI features require opt-in and can be disabled at any time" (Day One guide).
 
-### Nothing to keep up
+- **Lock:** a passcode, Touch ID or Face ID for the whole app.
+- **Your writing:** "not used to train AI models unless you have explicitly given permission" (Day One AI guide).
+- **Export:** PDF, JSON, plain text or Markdown, and CSV, depending on the platform.
 
-Diary BFF has no badges or check-ins. Skip a night, and it won't bring it up. Writing four nights one week and none the next is not something the replies will point out to you.
+### 6. Journey
 
-## Side by side
+A journal that runs on Android, iOS, Mac, Windows, web and Chrome OS. Its AI is a chat you start yourself, with characters named Barry and Sherry.
 
-| | Rosebud | Diary BFF |
-|---|---|---|
-| Built for | Personal growth, goals, habits | Nights when your head won't stop |
-| AI replies | Feedback and follow-up questions | A few sentences, like a friend; only when asked |
-| Weekly | Progress reports | A letter from your diary BFF |
-| Lock | Optional Face ID, Touch ID, or PIN | Its own PIN, separate from your phone |
-| Platforms | iPhone, Android, web | iPhone |
+- **Lock:** a passcode, Touch ID or Face ID.
+- **Your writing:** "We do not employ users' personal data for training language model" (Journey AI policy).
+- **Export:** zip, PDF, Word and ePub; imports from Day One, Apple Journal and Daylio.
 
-Features change; check each app's current listing before you decide.
+### 7. Stoic
 
-Related: [Day One alternative](https://diarybff.app/day-one-alternative/) · [AI diary that writes back](https://diarybff.app/ai-diary-that-writes-back/) · [Apple Journal alternative](https://diarybff.app/apple-journal-alternative/) · [Diary BFF](https://diarybff.app/)
+A morning-preparation and evening-reflection app with prompts, guided journals, breathing and habit tools. AI is part of a separate "Premium + AI" plan, switched on by you, with **Go Deeper** when you want more.
 
-## Which one should you pick?
+- **Lock:** a passcode, Touch ID or Face ID.
+- **Your writing:** "We do not use your content to train AI models" (privacy policy).
 
-Pick **Rosebud** if you want a structured personal-growth tool with goals, habits, guided journals, and access on Android or the web.
+## Plans and prices side by side
 
-Pick **Diary BFF** if you mostly write at night, want something that feels like telling a friend rather than doing an exercise, and want a diary that stays closed even when your phone is open.
+US prices as listed on November 4, 2026. Where an app's website and its App Store list disagree, both are shown. Prices change; check before you buy.
 
-Your first reply comes with the app; more replies and the full Sunday letter are part of the full version.
+| App | Without paying | Paid plan (US) | When the AI replies | Own lock |
+|---|---|---|---|---|
+| Diary BFF | Writing and export; replies with the full version (try it first) | On the App Store page | Only when you tap Ask | PIN, separate from the phone |
+| Rosebud | Help center: free plan retired Sept 30, 2026 | $12.99/mo or $107.99/yr (Bloom) | During the entry, and when you finish it | Face ID, Touch ID or PIN |
+| Reflection | "Free Forever" plan with a daily AI allowance | $8/mo, or $5.75/mo billed yearly (site); App Store lists other prices too | When you press Enter; can be turned off | Face ID or PIN (paid) |
+| Mindsera | Free plan with a few AI tries | $14.99/mo or $129/yr | When you invite a Mind or tap Go Deeper | Passcode |
+| Life Note | 10 entries with replies in week one, then 3 a week | $10.99/mo or $99.99/yr | After every entry | Face ID or Touch ID; PIN per FAQ |
+| Day One | Basic plan, no AI | Silver $49.99/yr ($8.99/mo in App Store); AI needs Gold, $74.99/yr | Gold only, opt-in, when you tap | Passcode, Touch ID or Face ID |
+| Journey | Free version, no time limit | $6.99/mo or $49.99/yr (App Store description) | In a chat you start | Passcode, Touch ID or Face ID |
+| Stoic | Prompts and basic guided journals | Prices not listed on its help center | Opt-in, then Go Deeper on request | Passcode, Touch ID or Face ID |
 
+## Where Rosebud is still the strongest
 
-<small>Rosebud details are from rosebud.app, help.rosebud.app, and Rosebud's App Store listing, checked October 2026. Rosebud is a trademark of its owner; Diary BFF is not affiliated with it.</small>
+- **Voice.** "Express yourself naturally in 20 languages" is in Rosebud's App Store listing. If you would rather talk than type, few apps here say as much about voice.
+- **Guidance inside the entry.** If you want the AI with you while you write, not only afterwards, that is what Rosebud is built for.
+- **Ratings.** 4.88 from 3,388 ratings on the US App Store on November 4, 2026.
+- **Markdown export** from Settings, on mobile and the web.
+
+## Limits of this article
+
+- We make Diary BFF. We wrote the other sections only from what each company publishes. We didn't test the other apps for this article, and we didn't rank them.
+- Prices and plans are a snapshot from November 4, 2026, US store. Rosebud's homepage and help center disagreed about its free plan on that day.
+- "Own lock" lists what each company says, not how strong each lock is.
+- We'll update this page when an app tells us something here is out of date.
+
+## FAQ
+
+**Is there a Rosebud alternative where the AI only answers when asked?**
+Diary BFF replies only when you tap Ask. Day One's AI features run "only when you tap" and are opt-in on the Gold plan. Reflection lets you turn the AI off or exclude single entries.
+
+**Which Rosebud alternative doesn't use entries to train AI?**
+Reflection, Mindsera, Life Note, Journey and Stoic all say so on their own pages, and Diary BFF does too. Day One says entries are not used "unless you have explicitly given permission".
+
+**Can I move my Rosebud entries to another app?**
+Rosebud exports to Markdown. Whether another app can import that file depends on the app: check its import screen before you switch.
+
+**Which of these works on Android?**
+Rosebud, Reflection, Mindsera, Life Note, Day One, Journey and Stoic list Android. Diary BFF is iPhone only for now.
+
+## Sources
+
+Read on November 4, 2026: rosebud.app · help.rosebud.app (changes to the free plan, usage limits, export) · reflection.app/pricing and /faq · mindsera.com, its privacy policy and help center · mylifenote.ai/pricing, /faq and privacy policy · dayoneapp.com/pricing and the Day One AI, passcode and export guides · journey.cloud/membership and gptPolicy · getstoic.com and its help center · each app's US App Store page.
+
+Related: [Day One alternatives](/day-one-alternative/) · [Diary BFF](/)

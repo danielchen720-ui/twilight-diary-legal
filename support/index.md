@@ -15,6 +15,8 @@ description: Help with your PIN, a new phone, export, deleting your account, and
 
 _Last updated: 2026-10-13_
 
+Short answers to the common questions are on the [Help](../help/) pages.
+
 Something broken, confusing, or missing? Write to the person who makes Diary BFF:
 
 <!-- config/legal-urls.json primary.contactEmail -->
