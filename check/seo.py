@@ -137,7 +137,13 @@ def check_pages(out):
             out.append(f"{p}：正文里自己写了 App Store 链接（按钮只许在 layout 里）")
         for rx, why in STALE:
             # title / description 也是对外的话（搜索结果里那一句），一起扫
-            if rx.search(body) or rx.search(t) or rx.search(d):
+            scan = body
+            if rx.pattern == r"\bforever\b":
+                # #2940：对照篇表格里引同行的套餐名（Reflection「Free Forever」）是同行事实，不是我们说的；
+                # 只放「| 别家 |」开头的表格行，「| Diary BFF |」那行和正文照拦（同 scan-2720-cmp 的同行行）
+                scan = "\n".join(l for l in body.splitlines()
+                                  if not (l.startswith("| ") and not l.startswith("| Diary BFF")))
+            if rx.search(scan) or rx.search(t) or rx.search(d):
                 out.append(f"{p}：{why}")
         m = LONE_HE.search(body)
         if m:

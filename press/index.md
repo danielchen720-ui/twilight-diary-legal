@@ -27,7 +27,7 @@ You write the way you'd write to a friend. The diary stays quiet while you write
 | Price | Download on the App Store; current subscription prices are on the App Store page |
 | Founder | Daniel Chen |
 | Press contact | [hello@diarybff.app](mailto:hello@diarybff.app) |
-| App Store | apps.apple.com/app/id6811528172 (the button below links to it) |
+| App Store | App ID 6811528172; the button below opens the listing |
 
 ## Icon and screenshots
 
