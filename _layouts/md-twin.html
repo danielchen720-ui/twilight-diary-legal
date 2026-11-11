@@ -1,0 +1,16 @@
+{%- comment -%}
+#3060：根目录 <slug>.md 在 GitHub Pages 上被 jekyll-optional-front-matter 渲染出来的 <slug>.html。
+它不该是一个能被收录的页 —— 正牌页是 /<slug>/。和站上 jekyll-redirect-from 那种跳转页同一形状，
+但零脚本：canonical + noindex + meta refresh + 一行链接。原 .md 不经过这个 layout（它照原文发）。
+{%- endcomment -%}
+{%- assign slug = page.name | remove: '.md' -%}
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="{{ site.url }}/{{ slug }}/">
+  <meta http-equiv="refresh" content="0; url={{ site.url }}/{{ slug }}/">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="{{ site.url }}/{{ slug }}/">Click here if you are not redirected.</a>
+</html>

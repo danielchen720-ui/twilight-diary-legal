@@ -28,3 +28,16 @@ plugins:
 exclude:
   - README.md
   - check
+
+# #3060（后端部 11-11，#3058 核出来的）：根目录那 32 个 <slug>.md 是给 /llms.txt 用的原文，没有
+# front matter。GitHub Pages 默认开着 jekyll-optional-front-matter（关不掉），它把这种 .md 也渲染成
+# <slug>.html 页、jekyll-sitemap 照收 —— 线上 sitemap 76 条里 32 条是正牌 /<slug>/ 的重复页（无
+# canonical、title 只有「Diary BFF」）。这里让那 32 个 .html 不进 sitemap，并套 md-twin：canonical +
+# noindex + 跳回 /<slug>/。原 .md 照样原文发（llms.txt 的地址不变）。只管根目录：help/*/index.md 有
+# front matter、不在根；README.md 上面 exclude 了。
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      sitemap: false
+      layout: md-twin

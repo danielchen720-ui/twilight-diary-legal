@@ -8,6 +8,9 @@
 ① 每个 <a href> / <img src> / <link href> 指向本站的（/x、../x、https://diarybff.app/x），build 里都有那个文件（目录 = 目录/index.html）
 ② /help/ 下每页：没有 <script；恰好 1 个 App Store 链接，ct=help-<名>（表在 HELP）、带 pt=129391747
 ③ /llms.txt 在，里面列的每个 https://diarybff.app/ 地址 build 里都有
+④ #3060：/sitemap.xml 里不许有 .html 地址（Search Console 验证文件白名单 SITEMAP_HTML_OK）——
+   根目录 <slug>.md 在 GitHub Pages 上会被 jekyll-optional-front-matter 渲染成 <slug>.html，
+   没有 _config.yml 那条 defaults 就会进 sitemap（线上 76 条那一次）。本机要带那个插件 build 才量得到。
 """
 import os
 import re
@@ -23,6 +26,7 @@ HELP = {
     "help/replies/index.html": "help-replies",
 }
 LINK_RE = re.compile(r'(?:href|src)="([^"]+)"')
+SITEMAP_HTML_OK = {"https://diarybff.app/google2719c5b28f6fab24.html"}
 APPSTORE_RE = re.compile(r'href="(https://apps\.apple\.com/[^"]+)"')
 
 
@@ -86,6 +90,13 @@ def problems(out):
         for u in re.findall(r"https://diarybff\.app(/[^\s)<>]*)", open(llms, encoding="utf-8").read()):
             if not exists(out, u):
                 bad.append(f"llms.txt：死链 https://diarybff.app{u}")
+    sm = os.path.join(out, "sitemap.xml")
+    if not os.path.isfile(sm):
+        bad.append("sitemap.xml：不在")
+    else:
+        for loc in re.findall(r"<loc>([^<]+)</loc>", open(sm, encoding="utf-8").read()):
+            if loc.endswith(".html") and loc not in SITEMAP_HTML_OK:
+                bad.append(f"sitemap.xml：有 .html 地址 {loc}（正牌是目录地址；.md 双胞胎要 sitemap: false）")
     return bad, len(pages)
 
 

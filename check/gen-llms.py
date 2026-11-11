@@ -3,7 +3,9 @@
 #2818 官网 /llms.txt + 每篇 .md 版。只读一个 legal-site checkout，写到 OUT 目录（不改 checkout）。
   python3 gen-md-and-llms.py <legal-site 路径> <git ref> <OUT> [覆盖目录…]
 覆盖目录 = 本夹里还没上站的篇（<slug>/index.md），同名的以它为准。
-.md 版没有 front matter（Jekyll 当静态文件原样发），第一段是 URL / 日期 / 作者。"""
+.md 版没有 front matter，第一段是 URL / 日期 / 作者。⚠️ #3060：「Jekyll 当静态文件原样发」只在本机为真 ——
+GitHub Pages 默认开着 jekyll-optional-front-matter，原 .md 照样原文发，但另外渲染出一个 <slug>.html；
+_config.yml 的 defaults 让它 sitemap: false + md-twin（canonical + noindex 跳回 /<slug>/）。"""
 import os, re, subprocess, sys
 site, ref, out, *over = sys.argv[1:]
 SKIP = {'check', 'assets', 'tiktok', '_layouts'}
